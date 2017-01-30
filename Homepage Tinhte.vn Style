@@ -1,0 +1,2430 @@
+<!DOCTYPE html>
+<html id="XenForo" lang="vi-VN" dir="LTR" class="Public NoJs uix_javascriptNeedsInit LoggedOut NoSidebar NoNavSidebar Responsive pageIsLtr not_hasTabLinks hasSearch activeSmallLogo is-sidebarOpen hasRightSidebar is-setWidth navStyle_2 pageStyle_1 hasFlexbox" xmlns:fb="http://www.facebook.com/2008/fbml">
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<base href="https://tinhte.vn/" />
+<title>Cộng đồng Khoa học &amp; Công nghệ</title>
+<noscript><style>.JsOnly, .jsOnly { display: none !important; }</style></noscript>
+<link rel="stylesheet" href="https://tinhte.vn/css.php?css=xenforo,form,public&style=63&dir=LTR&d=1485764018" />
+<link rel="stylesheet" href="https://tinhte.vn/css.php?css=TT_UTP,bdad,bdlinkexpander,bdsocialshare,facebook,google,login_bar,nat_public_css,sonnb_xengallery_bbcode_album,sonnb_xengallery_navbar_template,tinhte_galleria,uix_extendedFooter,wf_default,wf_widget_page&style=63&dir=LTR&d=1485764018" />
+<link rel="stylesheet" href="https://tinhte.vn/css.php?css=uix,uiflex,dimota&style=63&dir=LTR&d=1485764018" />
+<style>
+/*** UIX -- PER USER STYLES ***/
+</style>
+<link rel="stylesheet" href="https://tinhte.vn/css.php?css=EXTRA&style=63&dir=LTR&d=1485764018" />
+<style>
+/* Node Styling */
+</style>
+<link href="styles/uiflex/uix/css/font-awesome.min.css" rel="stylesheet">
+<meta property="fb:pages" content="122102927812763" />
+<link rel="apple-touch-icon" href="https://tinhte.vn/styles/uiflex/dimota/logo.og.png" />
+<link rel="alternate" type="application/rss+xml" title="RSS của Tinhte.vn" href="https://tinhte.vn/rss/" />
+<style>
+@media screen and (max-width: 700px) {
+#widget-columns-218 .widget-columns { display: block; }
+#widget-columns-218 .columns-container { display: block; }
+#widget-columns-218 .widget-column { display: block; }
+#widget-columns-218 > .columns-container > .widget-column > div { margin-left: 0; }
+#widget-columns-218 > .columns-container > .widget-column { border-left: 0; margin-left: 0 !important; }
+#widget-columns-218 > .columns-container > .widget-column
+{
+border-top: 1px solid #a5cae4;
+margin-top: 5px;
+padding-top: 5px;
+}
+#widget-columns-218 > .columns-container > .widget-column.column-1
+{
+border-top: 0;
+margin-top: 0;
+padding-top: 0;
+}
+}
+</style>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans:400,700&subset=latin-ext,vietnamese">
+<meta property="og:site_name" content="Tinhte.vn" />
+<meta property="og:image" content="https://tinhte.vn/styles/uiflex/dimota/logo.og.png" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://tinhte.vn/." />
+<meta property="og:title" content="Cộng đồng Khoa học & Công nghệ" />
+<meta property="fb:pages" content="122102927812763" />
+<meta property="fb:app_id" content="145923738846814" />
+<meta property="twitter:card" content="summary" />
+<meta property="twitter:title" content="Cộng đồng Khoa học &amp; Công nghệ" />
+<meta property="twitter:image" content="https://tinhte.vn/styles/uiflex/dimota/logo.og.png" />
+<meta property="twitter:url" content="https://tinhte.vn/." />
+<link rel="canonical" href="https://tinhte.vn/." />
+<meta name="theme-color" content="rgb(27, 109, 168)">
+<meta name="msapplication-TileColor" content="rgb(27, 109, 168)">
+<meta name="bdcache" content="1485772453" /></head>
+<body class="node667">
+<div id="loginBar">
+<div class="pageContent">
+<span class="helper"></span>
+</div>
+<div class="pageWidth">
+</div>
+</div>
+<div class="js-uix_panels uix_panels ">
+<aside class="js-sidePanelWrapper sidePanelWrapper sidePanelWrapper--left">
+<a href="#" class="js-panelMask uix_panelMask"></a>
+<div class="sidePanel sidePanel--nav">
+<nav>
+<ul class="sidePanel__navTabs">
+<!-- home -->
+<!-- extra tabs: home -->
+<li class="navTab WidgetFramework_home selected">
+<a href="https://tinhte.vn/" class="navLink">Trang nhất</a>
+</li>
+<!-- forums -->
+<li class="navTab forums ">
+<a href="https://tinhte.vn/forums/" class="navLink">Diễn đàn</a>
+<a href="https://tinhte.vn/forums/" class="SplitCtrl"><i class="uix_icon js-offcanvasIcon uix_icon-expandDropdown"></i></a>
+<div class="tabLinks">
+<ul class="secondaryContent blockLinksList">
+<li><a href="search/">Tìm kiếm</a></li>
+<li><a href="topic-center/">Bài mới</a></li>
+</ul>
+</div>
+</li>
+<!-- extra tabs: middle -->
+<li class="navTab sonnb_xengallery ">
+<a href="https://tinhte.vn/gallery/" class="navLink">Gallery</a>
+<a href="https://tinhte.vn/gallery/" class="SplitCtrl"><i class="uix_icon js-offcanvasIcon uix_icon-expandDropdown"></i></a>
+<div class="tabLinks">
+<ul class="secondaryContent blockLinksList xengallery">
+<li><a href="gallery/categories">Thể loại</a></li>
+<li><a title="Tìm theo thành viên" class="OverlayTrigger" href="gallery/explore-user">Tìm theo thành viên</a></li>
+<li><a title="Album mới" href="gallery/new-albums">Album mới</a></li>
+<li><a title="Ảnh mới" href="gallery/new-photos">Ảnh mới</a></li>
+<li><a title="Video mới" href="gallery/new-videos">Video mới</a></li>
+<li><a title="New Comments" href="gallery/new-comments">New Comments</a></li>
+<li><a title="Hình ảnh và các bộ sưu tập nổi bật" href="gallery/collections">Các bộ sưu tập</a></li>
+<li><a title="Khám phá các địa điểm phổ biến mà các thành viên của chúng ta thường đến chụp ảnh." href="gallery/locations">Địa điểm</a></li>
+<li><a title="The most active cameras that are being used in gallery" href="gallery/cameras">Thiết bị</a></li>
+<li><a title="The most active tags/keywords are being used at Tinhte.vn" href="gallery/tags">Tags Cloud</a></li>
+</ul>	</div>
+</li>
+<li class="navTab Appforo_Timeline ">
+<a href="https://tinhte.vn/timeline/" class="navLink">Timeline</a>
+</li>
+<li class="navTab resources ">
+<a href="https://tinhte.vn/resources/" class="navLink">Thư viện</a>
+<a href="https://tinhte.vn/resources/" class="SplitCtrl"><i class="uix_icon js-offcanvasIcon uix_icon-expandDropdown"></i></a>
+<div class="tabLinks">
+<ul class="secondaryContent blockLinksList">
+<li><a href="search/?type=resource_update">Tìm trong thư viện</a></li>
+<li><a href="resources/authors">Thành viên năng động</a></li>
+<li><a href="resources/reviews">Latest Reviews</a></li>
+</ul>
+</div>
+</li>
+<!-- members -->
+<!-- extra tabs: end -->
+<li class="navTab "><a href="/topic-center/" class="navLink">
+<i class="fa fa-globe" aria-hidden="true"></i>Bài mới</a>
+</li>
+<li class="navTab "><a href="/dienthoai" class="navLink">
+<i class="fa fa-tablet" aria-hidden="true"></i>Điện thoại</a>
+</li>
+<li class="navTab "><a href="/maytinh" class="navLink">
+<i class="fa fa-laptop" aria-hidden="true"></i>Máy tính</a>
+</li>
+<li class="navTab "><a href="/camera" class="navLink">
+<i class="fa fa-camera-retro" aria-hidden="true"></i>Camera</a>
+</li>
+<li class="navTab "><a href="/xe" class="navLink">
+<i class="fa fa-motorcycle" aria-hidden="true"></i>Xe</a>
+</li>
+<li class="navTab "><a href="/khcn" class="navLink">
+<i class="fa fa-battery-half" aria-hidden="true"></i>KHCN</a>
+</li>
+<li><br/></li>
+<li class="navTab "><a href="/account/following" class="navLink">
+<i class="fa fa-users" aria-hidden="true"></i>Bạn bè</a>
+</li>
+<li class="navTab "><a href="/events" class="navLink">
+<i class="fa fa-laptop" aria-hidden="true"></i>Sự kiện</a>
+</li>
+<li class="navTab "><a href="/account/" class="navLink">
+<i class="fa fa-cog" aria-hidden="true"></i>Thiết lập</a>
+</li>
+</ul>
+</nav>
+</div>
+</aside>
+<aside class="js-sidePanelWrapper sidePanelWrapper sidePanelWrapper--right">
+<a href="#" class="js-panelMask uix_panelMask"></a>
+<div class="sidePanel sidePanel--login">
+<form action="login/login" method="post" class="xenForm--uixLoginForm xenForm">
+<dl class="ctrlUnit fullWidth">
+<dt><label for="ctrl_pageLogin_login">Tên tài khoản hoặc Email:</label></dt>
+<dd><input type="text" name="login" value="" id="ctrl_pageLogin_login" class="textCtrl uix_fixIOSClickInput" tabindex="1" /></dd>
+</dl>
+<dl class="ctrlUnit fullWidth">
+<dt><label for="ctrl_pageLogin_password">Mật khẩu:</label></dt>
+<dd>
+<input type="password" name="password" class="textCtrl uix_fixIOSClickInput" id="ctrl_pageLogin_password" tabindex="2" />	<div><a href="lost-password/" class="OverlayTrigger OverlayCloser" tabindex="6">Quên mật khẩu?</a>
+<a href="register/" tabindex="6">Đăng ký</a></div>
+</dd>
+</dl>
+<dl class="ctrlUnit submitUnit">
+<dd>
+<input type="submit" class="button primary" value="Đăng nhập" data-loginPhrase="Đăng nhập" data-signupPhrase="Đăng ký" tabindex="4" />
+<label class="rememberPassword"><input type="checkbox" name="remember" value="1" id="ctrl_pageLogin_remember" tabindex="3" /> Nhớ đăng nhập</label>
+</dd>
+</dl>
+<dl class="ctrlUnit fullWidth">
+<dt></dt>
+<dd><a href="register/facebook?reg=1" class="fbLogin" tabindex="10"><span>Đăng nhập bằng Facebook</span></a></dd>
+<dt></dt>
+<dd><span class="googleLogin GoogleLogin JsOnly" tabindex="10" data-client-id="572333712218-17emelrtbjqlumrd326fbnrjb2ma4kh5.apps.googleusercontent.com" data-redirect-url="register/google?code=__CODE__&amp;csrf=bXOmJGvZM_Za-vGW"><span>Đăng nhập bằng Google</span></span></dd>
+</dl>
+<input type="hidden" name="cookie_check" value="1" />
+<input type="hidden" name="_xfToken" value="" />
+<input type="hidden" name="redirect" value="/" />
+</form>
+</div>
+</aside>
+<div class="mainPanelWrapper">
+<a href="#" class="js-panelMask uix_panelMask"></a>
+<div class="uix_wrapperFix" style="height: 1px; margin-bottom: -1px;"></div>
+<div id="uix_wrapper">
+<div class="uix_wrapperFix" style="height: 1px; margin-bottom: -1px;"></div>
+<div id="headerMover">
+<div id="headerProxy"></div>
+<header>
+<div id="header">
+<div id="navigation" class="header__blockItem withSearch stickyTop">
+<div class="sticky_wrapper">
+<div class="uix_navigationWrapper">
+<div class="pageContent">
+<nav>
+<div class="navTabs">
+<div class="pageWidth">
+<ul class="publicTabs navLeft">
+<li id="logo_small">
+<a href="https://tinhte.vn/">
+<img src="styles/uiflex/dimota/logo_small.png">
+</a>
+</li>
+
+<!-- responsive popup -->
+<li class="navTab navigationHiddenTabs navTab--justIcon Popup PopupControl PopupClosed" style="display:none">
+<a rel="Menu" class="navLink NoPopupGadget uix_dropdownDesktopMenu"><i class="uix_icon uix_icon-navOverflow"></i><span class="uix_hide menuIcon">Menu</span></a>
+<div class="Menu JsOnly blockLinksList primaryContent" id="NavigationHiddenMenu"></div>
+</li>
+</ul>
+<ul class="navRight visitorTabs">
+<li class="navTab login Popup PopupControl PopupClosed">
+<a href="login/" class="navLink uix_dropdownDesktopMenu NoPopupGadget"rel="Menu">
+<strong class="loginText">Đăng nhập</strong>
+</a>
+<div class="Menu JsOnly tabMenu uix_fixIOSClick">
+<div class="secondaryContent">
+<form action="login/login" method="post" class="xenForm--uixLoginForm xenForm">
+<dl class="ctrlUnit fullWidth">
+<dt><label for="ctrl_pageLogin_login">Tên tài khoản hoặc Email:</label></dt>
+<dd><input type="text" name="login" value="" id="ctrl_pageLogin_login" class="textCtrl uix_fixIOSClickInput" tabindex="1" /></dd>
+</dl>
+<dl class="ctrlUnit fullWidth">
+<dt><label for="ctrl_pageLogin_password">Mật khẩu:</label></dt>
+<dd>
+<input type="password" name="password" class="textCtrl uix_fixIOSClickInput" id="ctrl_pageLogin_password" tabindex="2" />	<div><a href="lost-password/" class="OverlayTrigger OverlayCloser" tabindex="6">Quên mật khẩu?</a>
+<a href="register/" tabindex="6">Đăng ký</a></div>
+</dd>
+</dl>
+<dl class="ctrlUnit submitUnit">
+<dd>
+<input type="submit" class="button primary" value="Đăng nhập" data-loginPhrase="Đăng nhập" data-signupPhrase="Đăng ký" tabindex="4" />
+<label class="rememberPassword"><input type="checkbox" name="remember" value="1" id="ctrl_pageLogin_remember" tabindex="3" /> Nhớ đăng nhập</label>
+</dd>
+</dl>
+<dl class="ctrlUnit fullWidth">
+<dt></dt>
+<dd><a href="register/facebook?reg=1" class="fbLogin" tabindex="10"><span>Đăng nhập bằng Facebook</span></a></dd>
+<dt></dt>
+<dd><span class="googleLogin GoogleLogin JsOnly" tabindex="10" data-client-id="572333712218-17emelrtbjqlumrd326fbnrjb2ma4kh5.apps.googleusercontent.com" data-redirect-url="register/google?code=__CODE__&amp;csrf=bXOmJGvZM_Za-vGW"><span>Đăng nhập bằng Google</span></span></dd>
+</dl>
+<input type="hidden" name="cookie_check" value="1" />
+<input type="hidden" name="_xfToken" value="" />
+<input type="hidden" name="redirect" value="/" />
+</form>
+</div>
+</div>
+</li>
+<li class="navTab uix_searchTab">
+<div id="searchBar" class="hasSearchButton">
+<i id="QuickSearchPlaceholder" class="uix_icon uix_icon-search" title="Tìm kiếm"></i>
+<fieldset id="QuickSearch">
+<form action="search/search" method="post" class="formPopup">
+<div class="primaryControls">
+<!-- block: primaryControls -->
+<i class="uix_icon uix_icon-search" onclick='$("#QuickSearch form").submit()'></i>
+<input type="search" name="keywords" value="" class="textCtrl" placeholder="Tìm kiếm..." results="0" title="Enter your search and hit enter" id="QuickSearchQuery" />
+<!-- end block: primaryControls -->
+</div>
+<div class="secondaryControls">
+<div class="controlsWrapper">
+<!-- block: secondaryControls -->
+<dl class="ctrlUnit">
+<dt></dt>
+<dd><ul>
+<li><label><input type="checkbox" name="title_only" value="1"
+id="search_bar_title_only" class="AutoChecker"
+data-uncheck="#search_bar_thread" /> Chì tìm tiêu đề</label></li>
+</ul></dd>
+</dl>
+<dl class="ctrlUnit">
+<dt><label for="searchBar_users">Viết bởi thành viên:</label></dt>
+<dd>
+<input type="text" name="users" value="" class="textCtrl AutoComplete" id="searchBar_users" />
+<p class="explain">Các tên cách nhau bởi dấu phẩy(,)</p>
+</dd>
+</dl>
+<dl class="ctrlUnit">
+<dt><label for="searchBar_date">Mới hơn:</label></dt>
+<dd><input type="date" name="date" value="" class="textCtrl" id="searchBar_date" /></dd>
+</dl>
+</div>
+<!-- end block: secondaryControls -->
+<dl class="ctrlUnit submitUnit">
+<dt></dt>
+<dd>
+<input type="submit" value="Tìm kiếm" class="button primary Tooltip" title="Tìm ngay" />
+<a href="search/" class="button moreOptions Tooltip" title="Tìm kiếm nâng cao">Thêm...</a>
+<div class="Popup" id="commonSearches">
+<a rel="Menu" class="button NoPopupGadget Tooltip" title="Mục tìm hữu ích" data-tipclass="flipped"><span class="arrowWidget"></span></a>
+<div class="Menu">
+<div class="primaryContent menuHeader">
+<h3>Mục tìm hữu ích</h3>
+</div>
+<ul class="secondaryContent blockLinksList">
+<!-- block: useful_searches -->
+<li><a href="find-new/posts?recent=1" rel="nofollow">Thảo luận mới</a></li>
+<!-- end block: useful_searches -->
+</ul>
+</div>
+</div>
+</dd>
+</dl>
+</div>
+<input type="hidden" name="_xfToken" value="" />
+</form>
+</fieldset>
+</div>
+</li>
+</ul>
+<div class="uix_minimalSearchWrapper">
+<div id="uix_searchMinimal">
+<form action="search/search" method="post">
+<i id="uix_searchMinimalClose" class="uix_icon uix_icon-close" title="Đóng"></i>
+<i id="uix_searchMinimalOptions" class="uix_icon uix_icon-cog" title="Tùy chọn"></i>
+<div id="uix_searchMinimalInput" >
+<input type="search" name="keywords" value="" placeholder="Tìm kiếm" results="0" />
+</div>
+<input type="hidden" name="_xfToken" value="" />
+</form>
+</div>
+</div>
+</div>
+</div>
+<span class="helper"></span>
+</nav>
+</div>
+</div>
+</div>
+</div>
+</div>
+</header>
+<div id="content" class="wf_widget_page">
+<div class="pageWidth">
+<div class="pageContent">
+<!-- main content area -->
+<div class="mainContainer_noSidebar">
+<div class="mainContent">
+<!--[if lt IE 8]>
+<p class="importantMessage">You are using an out of date browser. It may not display this or other websites correctly.<br />You should upgrade or use an <a href="https://www.google.com/chrome/browser/" target="_blank">alternative browser</a>.</p>
+<![endif]-->
+<!-- main template -->
+<div id="WidgetPageContents">
+<div class="TT_UTP_layoutNewsFull tt-utp-infinite-scrolling" style="font-family: 'Noto Sans',sans-serif;" data-content-selector=".TT_UTP_layoutNewsFull" data-loading-html="&lt;small class=&quot;loading-html&quot;&gt;Đang tải&lt;/small&gt;" data-times="2" data-ajax-load-url="http://viettel11.vimobi.com:9081/misc/wf-widget?widget_id=219&amp;alp=%7B%22_WidgetFramework_isHook%22%3Atrue%2C%22_ignoredThreadIds%22%3A%22%22%2C%22_currentPage%22%3A1%2C%22widget_page_id%22%3A667%2C%22navigation_page%22%3A2%7D">
+<div class="threads">
+<div id="post-49228896" class="promote section position-1 thread-2674755 forum-201 thread"data-author="bk9sw">
+<div class="thread-info width-narrow">
+<span class="poster-avatar">
+<a href="members/bk9sw.52034/" class="avatar Av52034m" data-avatarhtml="true"><img src="https://tinhte.vn/data/avatars/m/52/52034.jpg?1467201439" width="96" height="96" alt="bk9sw" /></a>
+</span>
+<span class="poster">
+<a href="members/bk9sw.52034/" class="username" dir="auto">bk9sw</a>
+</span>
+<span class="process-time">
+<a href="threads/thu-thuat-windows-nang-cap-windows-10-mien-phi-bang-cong-cu-ho-tro-cho-nguoi-khuyet-tat.2674755/" class="Tooltip" title="16:13 ngày 30/1/17">16:13 hôm nay</a>
+</span>
+<span class="forum">
+<span>trong</span>
+<a href="forums/win-hoi-dap-cskn.201/" title="[Win] Hỏi đáp - CSKN" class="Tooltip">Win</a>
+</span>
+</div><!-- .thread-info -->
+<div class="thread-image width-wide" data-src="https://tinhte.vn/store/2017/01/3962296_CV_Cap_nhat_Windows_10_Assessiblity.jpg">
+<a href="threads/thu-thuat-windows-nang-cap-windows-10-mien-phi-bang-cong-cu-ho-tro-cho-nguoi-khuyet-tat.2674755/">
+<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAADAQMAAACUBtwLAAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAAAtJREFUCJljYAABAAAGAAHmh/5/AAAAAElFTkSuQmCC" style="background: url(https://tinhte.vn/store/2017/01/3962296_CV_Cap_nhat_Windows_10_Assessiblity.jpg); background-size: cover;">
+</a>
+</div>
+<div class="thread-title width-narrow">
+<a href="threads/thu-thuat-windows-nang-cap-windows-10-mien-phi-bang-cong-cu-ho-tro-cho-nguoi-khuyet-tat.2674755/">[Thủ thuật Windows] Nâng cấp Windows 10 miễn phí bằng công cụ hỗ trợ cho người khuyết tật</a>
+</div>
+<div class="post-body width-narrow">
+<article>
+<blockquote class="messageText ugc baseHtml">
+<a href="http://viettel11.vimobi.com:9081/threads/thu-thuat-windows-nang-cap-windows-10-mien-phi-bang-cong-cu-ho-tro-cho-nguoi-khuyet-tat.2674755/" class="snippet block">Windows 10 đã không còn cho nâng cấp miễn phí kể từ cuối tháng 7 năm ngoái nhưng nếu bạn muốn &quot;bắt chuyến đò cuối&quot; thì Microsoft vẫn có giải pháp. Thông qua chương trình cập nhật Windows 10 dành cho người dùng sử dụng các công nghệ hỗ trợ (thường là người khuyết tật), bạn có thể cập nhật Windows 10 cho chiếc máy tính của mình miễn là…</a>
+</blockquote>
+</article>
+</div>
+<div class="post-controls controls width-narrow">
+<a href="http://viettel11.vimobi.com:9081/threads/thu-thuat-windows-nang-cap-windows-10-mien-phi-bang-cong-cu-ho-tro-cho-nguoi-khuyet-tat.2674755/" class="control views">
+<span>
+<i class="fa fa-eye" aria-hidden="true"></i>
+<span class="counter" style="">211</span>
+</span>
+</a>
+<a href="http://viettel11.vimobi.com:9081/threads/thu-thuat-windows-nang-cap-windows-10-mien-phi-bang-cong-cu-ho-tro-cho-nguoi-khuyet-tat.2674755/#QuickReply" class="control replies">
+<span>
+<i class="fa fa-comment-o" aria-hidden="true"></i>
+<span class="counter" style="">39</span>
+</span>
+</a>
+<div class="controls sharing">
+<div class="bdSocialShare shareControl socialcounters" data-url="http://viettel11.vimobi.com:9081/threads/thu-thuat-windows-nang-cap-windows-10-mien-phi-bang-cong-cu-ho-tro-cho-nguoi-khuyet-tat.2674755/" data-server="https://tinhte.vn">
+<div class="facebook" title="Chia sẻ lên Facebook">
+<a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fviettel11.vimobi.com%3A9081%2Fthreads%2Fthu-thuat-windows-nang-cap-windows-10-mien-phi-bang-cong-cu-ho-tro-cho-nguoi-khuyet-tat.2674755%2F" target="_blank">
+<i class="fa fa-facebook" aria-hidden="true"></i>
+<span>Facebook</span>
+<span class="counter" style="display: none">0</span>
+</a>
+</div>
+</div>
+<a href="http://viettel11.vimobi.com:9081/posts/49228896/permalink" class="control permalink OverlayTrigger">
+<span>
+<i class="fa fa-share-alt" aria-hidden="true"></i>
+</span>
+</a>
+</div>
+</div>
+<div class="separator width-wide">&nbsp;</div>
+</div>
+<div id="post-49233156" class="promote section position-2 thread-2674907 forum-71 thread"data-author="tuanlionsg">
+<div class="thread-info width-narrow">
+<span class="poster-avatar">
+<a href="members/tuanlionsg.298/" class="avatar Av298m" data-avatarhtml="true"><img src="https://tinhte.vn/data/avatars/m/0/298.jpg?1394077624" width="96" height="96" alt="tuanlionsg" /></a>
+</span>
+<span class="poster">
+<a href="members/tuanlionsg.298/" class="username" dir="auto">tuanlionsg</a>
+</span>
+<span class="process-time">
+<a href="threads/anh-x-ray-va-clip-hau-truong-cua-nhiep-anh-gia-nick-veasey-tuyet-dep.2674907/" class="Tooltip" title="14:30 ngày 30/1/17">14:30 hôm nay</a>
+</span>
+<span class="forum">
+<span>trong</span>
+<a href="forums/tin-tuc.71/">Tin tức</a>
+</span>
+</div><!-- .thread-info -->
+<div class="thread-image width-wide" data-src="https://tinhte.vn/store/2017/01/3962219_CV.jpg">
+<a href="threads/anh-x-ray-va-clip-hau-truong-cua-nhiep-anh-gia-nick-veasey-tuyet-dep.2674907/">
+<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAADAQMAAACUBtwLAAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAAAtJREFUCJljYAABAAAGAAHmh/5/AAAAAElFTkSuQmCC" style="background: url(https://tinhte.vn/store/2017/01/3962219_CV.jpg); background-size: cover;">
+</a>
+</div>
+<div class="thread-title width-narrow">
+<a href="threads/anh-x-ray-va-clip-hau-truong-cua-nhiep-anh-gia-nick-veasey-tuyet-dep.2674907/">Ảnh X-Ray và Clip hậu trường của nhiếp ảnh gia Nick Veasey tuyệt đẹp</a>
+</div>
+<div class="post-body width-narrow">
+<article>
+<blockquote class="messageText ugc baseHtml">
+<a href="http://viettel11.vimobi.com:9081/threads/anh-x-ray-va-clip-hau-truong-cua-nhiep-anh-gia-nick-veasey-tuyet-dep.2674907/" class="snippet block">&quot;<i>Mọi người xem những bức ảnh của tôi và thốt lên rằng &#039;wow, không tin rằng bạn có thể làm được quá nhiều với một chiếc máy chụp X-Ray&#039;, thì đây, tôi xin chia sẻ công việc tôi làm đàng sau những bức ảnh ấy!</i>&quot; Đó là chia sẻ của nhiếp ảnh gia <b>Nick Veasey</b>, người mê chụp mọi thứ bằng X-Ray. Trong bài có một video…</a>
+</blockquote>
+</article>
+</div>
+<div class="post-controls controls width-narrow">
+<a href="http://viettel11.vimobi.com:9081/threads/anh-x-ray-va-clip-hau-truong-cua-nhiep-anh-gia-nick-veasey-tuyet-dep.2674907/" class="control views">
+<span>
+<i class="fa fa-eye" aria-hidden="true"></i>
+<span class="counter" style="">2,303</span>
+</span>
+</a>
+<a href="http://viettel11.vimobi.com:9081/threads/anh-x-ray-va-clip-hau-truong-cua-nhiep-anh-gia-nick-veasey-tuyet-dep.2674907/#QuickReply" class="control replies">
+<span>
+<i class="fa fa-comment-o" aria-hidden="true"></i>
+<span class="counter" style="">23</span>
+</span>
+</a>
+<div class="controls sharing">
+<div class="bdSocialShare shareControl socialcounters" data-url="http://viettel11.vimobi.com:9081/threads/anh-x-ray-va-clip-hau-truong-cua-nhiep-anh-gia-nick-veasey-tuyet-dep.2674907/" data-server="https://tinhte.vn">
+<div class="facebook" title="Chia sẻ lên Facebook">
+<a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fviettel11.vimobi.com%3A9081%2Fthreads%2Fanh-x-ray-va-clip-hau-truong-cua-nhiep-anh-gia-nick-veasey-tuyet-dep.2674907%2F" target="_blank">
+<i class="fa fa-facebook" aria-hidden="true"></i>
+<span>Facebook</span>
+<span class="counter" style="display: none">0</span>
+</a>
+</div>
+</div>
+<a href="http://viettel11.vimobi.com:9081/posts/49233156/permalink" class="control permalink OverlayTrigger">
+<span>
+<i class="fa fa-share-alt" aria-hidden="true"></i>
+</span>
+</a>
+</div>
+</div>
+<div class="separator width-wide">&nbsp;</div>
+</div>
+<div id="post-49232176" class="promote section position-3 thread-2674876 forum-76 thread"data-author="ndminhduc">
+<div class="thread-info width-narrow">
+<span class="poster-avatar">
+<a href="members/ndminhduc.1657195/" class="avatar Av1657195m" data-avatarhtml="true"><img src="https://tinhte.vn/data/avatars/m/1657/1657195.jpg?1411038526" width="96" height="96" alt="ndminhduc" /></a>
+</span>
+<span class="poster">
+<a href="members/ndminhduc.1657195/" class="username" dir="auto">ndminhduc</a>
+</span>
+<span class="process-time">
+<a href="threads/mat-kinh-tu-dieu-chinh-tieu-cu-dua-vao-tam-nhin-cua-nguoi-dung-nguoi-gia-nhin-xa-nhin-gan-deu-ro.2674876/" class="Tooltip" title="14:21 ngày 30/1/17">14:21 hôm nay</a>
+</span>
+<span class="forum">
+<span>trong</span>
+<a href="forums/khoa-hoc.76/">Khoa học</a>
+</span>
+</div><!-- .thread-info -->
+<div class="thread-image width-wide" data-src="https://tinhte.vn/store/2017/01/3962161_cv.jpg">
+<a href="threads/mat-kinh-tu-dieu-chinh-tieu-cu-dua-vao-tam-nhin-cua-nguoi-dung-nguoi-gia-nhin-xa-nhin-gan-deu-ro.2674876/">
+<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAACAAAAAMBAQMAAABBMsYsAAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAANVJREFUeJztwQEBAAAAgiD/r64hQAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwA0ELgAB724hawAAAABJRU5ErkJggg==" style="background: url(https://tinhte.vn/store/2017/01/3962161_cv.jpg); background-size: cover;">
+</a>
+</div>
+<div class="thread-title width-narrow">
+<a href="threads/mat-kinh-tu-dieu-chinh-tieu-cu-dua-vao-tam-nhin-cua-nguoi-dung-nguoi-gia-nhin-xa-nhin-gan-deu-ro.2674876/">Mắt kính tự điều chỉnh tiêu cự dựa vào tầm nhìn của người dùng, người già nhìn xa nhìn gần đều rõ</a>
+</div>
+<div class="post-body width-narrow">
+<article>
+<blockquote class="messageText ugc baseHtml">
+<a href="http://viettel11.vimobi.com:9081/threads/mat-kinh-tu-dieu-chinh-tieu-cu-dua-vao-tam-nhin-cua-nguoi-dung-nguoi-gia-nhin-xa-nhin-gan-deu-ro.2674876/" class="snippet block">Mặc dù không hiển thị những thông tin tăng cường thực tế hay camera quay phim chụp ảnh nhưng đây vẫn là chiếc mắt kính thông minh bởi nó sử dụng những thấu kính lỏng với khả năng tự động điều chỉnh độ nét theo tầm nhìn của người dùng. Nhờ đó những người có mắt bị lão có thể nhìn xa lẫn nhìn gần một cách rõ nét mà không cần tháo kính ra, đeo…</a>
+</blockquote>
+</article>
+</div>
+<div class="post-controls controls width-narrow">
+<a href="http://viettel11.vimobi.com:9081/threads/mat-kinh-tu-dieu-chinh-tieu-cu-dua-vao-tam-nhin-cua-nguoi-dung-nguoi-gia-nhin-xa-nhin-gan-deu-ro.2674876/" class="control views">
+<span>
+<i class="fa fa-eye" aria-hidden="true"></i>
+<span class="counter" style="">1,281</span>
+</span>
+</a>
+<a href="http://viettel11.vimobi.com:9081/threads/mat-kinh-tu-dieu-chinh-tieu-cu-dua-vao-tam-nhin-cua-nguoi-dung-nguoi-gia-nhin-xa-nhin-gan-deu-ro.2674876/#QuickReply" class="control replies">
+<span>
+<i class="fa fa-comment-o" aria-hidden="true"></i>
+<span class="counter" style="">9</span>
+</span>
+</a>
+<div class="controls sharing">
+<div class="bdSocialShare shareControl socialcounters" data-url="http://viettel11.vimobi.com:9081/threads/mat-kinh-tu-dieu-chinh-tieu-cu-dua-vao-tam-nhin-cua-nguoi-dung-nguoi-gia-nhin-xa-nhin-gan-deu-ro.2674876/" data-server="https://tinhte.vn">
+<div class="facebook" title="Chia sẻ lên Facebook">
+<a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fviettel11.vimobi.com%3A9081%2Fthreads%2Fmat-kinh-tu-dieu-chinh-tieu-cu-dua-vao-tam-nhin-cua-nguoi-dung-nguoi-gia-nhin-xa-nhin-gan-deu-ro.2674876%2F" target="_blank">
+<i class="fa fa-facebook" aria-hidden="true"></i>
+<span>Facebook</span>
+<span class="counter" style="display: none">0</span>
+</a>
+</div>
+</div>
+<a href="http://viettel11.vimobi.com:9081/posts/49232176/permalink" class="control permalink OverlayTrigger">
+<span>
+<i class="fa fa-share-alt" aria-hidden="true"></i>
+</span>
+</a>
+</div>
+</div>
+<div class="separator width-wide">&nbsp;</div>
+</div>
+<div id="post-49232194" class="promote section position-4 thread-2674877 forum-76 thread"data-author="ndminhduc">
+<div class="thread-info width-narrow">
+<span class="poster-avatar">
+<a href="members/ndminhduc.1657195/" class="avatar Av1657195m" data-avatarhtml="true"><img src="https://tinhte.vn/data/avatars/m/1657/1657195.jpg?1411038526" width="96" height="96" alt="ndminhduc" /></a>
+</span>
+<span class="poster">
+<a href="members/ndminhduc.1657195/" class="username" dir="auto">ndminhduc</a>
+</span>
+<span class="process-time">
+<a href="threads/robot-phau-thuat-sieu-chinh-xac-co-the-dua-thuoc-vao-mach-mau-mong-bang-soi-toc-phuc-hoi-thi-luc.2674877/" class="Tooltip" title="12:07 ngày 30/1/17">12:07 hôm nay</a>
+</span>
+<span class="forum">
+<span>trong</span>
+<a href="forums/khoa-hoc.76/">Khoa học</a>
+</span>
+</div><!-- .thread-info -->
+<div class="thread-image width-wide" data-src="https://tinhte.vn/store/2017/01/3962162_cv.jpg">
+<a href="threads/robot-phau-thuat-sieu-chinh-xac-co-the-dua-thuoc-vao-mach-mau-mong-bang-soi-toc-phuc-hoi-thi-luc.2674877/">
+<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAADAQMAAACUBtwLAAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAAAtJREFUCJljYAABAAAGAAHmh/5/AAAAAElFTkSuQmCC" style="background: url(https://tinhte.vn/store/2017/01/3962162_cv.jpg); background-size: cover;">
+</a>
+</div>
+<div class="thread-title width-narrow">
+<a href="threads/robot-phau-thuat-sieu-chinh-xac-co-the-dua-thuoc-vao-mach-mau-mong-bang-soi-toc-phuc-hoi-thi-luc.2674877/">Robot phẫu thuật siêu chính xác có thể đưa thuốc vào mạch máu mỏng bằng sợi tóc, phục hồi thị lực</a>
+</div>
+<div class="post-body width-narrow">
+<article>
+<blockquote class="messageText ugc baseHtml">
+<a href="http://viettel11.vimobi.com:9081/threads/robot-phau-thuat-sieu-chinh-xac-co-the-dua-thuoc-vao-mach-mau-mong-bang-soi-toc-phuc-hoi-thi-luc.2674877/" class="snippet block">Nhờ vào robot phẫu thuật với độ chính xác cực cao, các bác sĩ phẫu thuật mắt tại bệnh viện Leuven đã có thể đưa một viên thuốc làm tan huyết khối vào mạch máu mảnh bằng sợi tóc nằm sâu trong võng mạc, từ đó phục hồi thị lực của bệnh nhân.<br />
+Căn bệnh này gọi là tắc nghẽn mạch máu võng mạc, gây giảm thị lực hoặc mù lòa và trước giờ, các bác sĩ chỉ…</a>
+</blockquote>
+</article>
+</div>
+<div class="post-controls controls width-narrow">
+<a href="http://viettel11.vimobi.com:9081/threads/robot-phau-thuat-sieu-chinh-xac-co-the-dua-thuoc-vao-mach-mau-mong-bang-soi-toc-phuc-hoi-thi-luc.2674877/" class="control views">
+<span>
+<i class="fa fa-eye" aria-hidden="true"></i>
+<span class="counter" style="">2,900</span>
+</span>
+</a>
+<a href="http://viettel11.vimobi.com:9081/threads/robot-phau-thuat-sieu-chinh-xac-co-the-dua-thuoc-vao-mach-mau-mong-bang-soi-toc-phuc-hoi-thi-luc.2674877/#QuickReply" class="control replies">
+<span>
+<i class="fa fa-comment-o" aria-hidden="true"></i>
+<span class="counter" style="">15</span>
+</span>
+</a>
+<div class="controls sharing">
+<div class="bdSocialShare shareControl socialcounters" data-url="http://viettel11.vimobi.com:9081/threads/robot-phau-thuat-sieu-chinh-xac-co-the-dua-thuoc-vao-mach-mau-mong-bang-soi-toc-phuc-hoi-thi-luc.2674877/" data-server="https://tinhte.vn">
+<div class="facebook" title="Chia sẻ lên Facebook">
+<a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fviettel11.vimobi.com%3A9081%2Fthreads%2Frobot-phau-thuat-sieu-chinh-xac-co-the-dua-thuoc-vao-mach-mau-mong-bang-soi-toc-phuc-hoi-thi-luc.2674877%2F" target="_blank">
+<i class="fa fa-facebook" aria-hidden="true"></i>
+<span>Facebook</span>
+<span class="counter" style="display: none">0</span>
+</a>
+</div>
+</div>
+<a href="http://viettel11.vimobi.com:9081/posts/49232194/permalink" class="control permalink OverlayTrigger">
+<span>
+<i class="fa fa-share-alt" aria-hidden="true"></i>
+</span>
+</a>
+</div>
+</div>
+<div class="separator width-wide">&nbsp;</div>
+</div>
+<div class="TT_UTP_layout_2l_3s_grid">
+<div class="container width-wide image-blocks">
+<div class="two-large image-row-1">
+<div class="threads">
+<div class="position-1">
+<div class="thread">
+<div class="thread-image" data-src="https://tinhte.vn/store/2017/01/3961675_cv_chuc_mung_nam_moi_2017.jpg">
+<a href="threads/chuc-5000000-anh-em-tinh-te-nam-moi-vui-ve-thanh-cong.2674702/">
+<img alt="Chúc 5000000 anh em Tinh tế năm mới vui vẻ, thành công" title="Chúc 5000000 anh em Tinh tế năm mới vui vẻ, thành công" src="https://tinhte.vn/data/images/cache/550_330/3f/700229f2ebe3b02b4a0723823ecf84ce.jpg?39633" width="550" height="330">
+</a>
+</div>
+<div class="thread-title image-text image-text-primary">
+<a href="threads/chuc-5000000-anh-em-tinh-te-nam-moi-vui-ve-thanh-cong.2674702/">
+Chúc 5000000 anh em Tinh tế năm mới vui vẻ, thành công
+</a>
+</div>
+<div class="image-text image-text-secondary">
+<div class="post-controls controls">
+<a href="http://viettel11.vimobi.com:9081/threads/chuc-5000000-anh-em-tinh-te-nam-moi-vui-ve-thanh-cong.2674702/" class="control views">
+<span>
+<i class="fa fa-eye" aria-hidden="true"></i>
+<span class="counter" style="">17,825</span>
+</span>
+</a>
+<a href="http://viettel11.vimobi.com:9081/threads/chuc-5000000-anh-em-tinh-te-nam-moi-vui-ve-thanh-cong.2674702/#QuickReply" class="control replies">
+<span>
+<i class="fa fa-comment-o" aria-hidden="true"></i>
+<span class="counter" style="">169</span>
+</span>
+</a>
+<div class="controls sharing">
+<div class="bdSocialShare shareControl socialcounters" data-url="http://viettel11.vimobi.com:9081/threads/chuc-5000000-anh-em-tinh-te-nam-moi-vui-ve-thanh-cong.2674702/" data-server="https://tinhte.vn">
+<div class="facebook" title="Chia sẻ lên Facebook">
+<a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fviettel11.vimobi.com%3A9081%2Fthreads%2Fchuc-5000000-anh-em-tinh-te-nam-moi-vui-ve-thanh-cong.2674702%2F" target="_blank">
+<i class="fa fa-facebook" aria-hidden="true"></i>
+<span>Facebook</span>
+<span class="counter" style="display: none">0</span>
+</a>
+</div>
+</div>
+<a href="http://viettel11.vimobi.com:9081/posts/permalink" class="control permalink OverlayTrigger">
+<span>
+<i class="fa fa-share-alt" aria-hidden="true"></i>
+</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="position-2">
+<div class="thread">
+<div class="thread-image" data-src="https://tinhte.vn/store/2017/01/3961653_suc_khoe_bia_ruou_Tinhte_5.jpg">
+<a href="threads/tet-2017-10-cach-han-che-say-ruou-bao-ve-suc-khoe-dip-le-tet.2674697/">
+<img alt="[Tết 2017] 10 cách hạn chế say rượu, bảo vệ sức khỏe dịp lễ tết" title="[Tết 2017] 10 cách hạn chế say rượu, bảo vệ sức khỏe dịp lễ tết" src="https://tinhte.vn/data/images/cache/330_330/85/1f296e5f570b7d0640e8bc3a3a4f307d.jpg?56302" width="330" height="330">
+</a>
+</div>
+<div class="thread-title image-text image-text-primary">
+<a href="threads/tet-2017-10-cach-han-che-say-ruou-bao-ve-suc-khoe-dip-le-tet.2674697/">
+[Tết 2017] 10 cách hạn chế say rượu, bảo vệ sức khỏe dịp lễ tết
+</a>
+</div>
+<div class="image-text image-text-secondary">
+<div class="post-controls controls">
+<a href="http://viettel11.vimobi.com:9081/threads/tet-2017-10-cach-han-che-say-ruou-bao-ve-suc-khoe-dip-le-tet.2674697/" class="control views">
+<span>
+<i class="fa fa-eye" aria-hidden="true"></i>
+<span class="counter" style="">28,950</span>
+</span>
+</a>
+<a href="http://viettel11.vimobi.com:9081/threads/tet-2017-10-cach-han-che-say-ruou-bao-ve-suc-khoe-dip-le-tet.2674697/#QuickReply" class="control replies">
+<span>
+<i class="fa fa-comment-o" aria-hidden="true"></i>
+<span class="counter" style="">55</span>
+</span>
+</a>
+<div class="controls sharing">
+<div class="bdSocialShare shareControl socialcounters" data-url="http://viettel11.vimobi.com:9081/threads/tet-2017-10-cach-han-che-say-ruou-bao-ve-suc-khoe-dip-le-tet.2674697/" data-server="https://tinhte.vn">
+<div class="facebook" title="Chia sẻ lên Facebook">
+<a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fviettel11.vimobi.com%3A9081%2Fthreads%2Ftet-2017-10-cach-han-che-say-ruou-bao-ve-suc-khoe-dip-le-tet.2674697%2F" target="_blank">
+<i class="fa fa-facebook" aria-hidden="true"></i>
+<span>Facebook</span>
+<span class="counter" style="display: none">0</span>
+</a>
+</div>
+</div>
+<a href="http://viettel11.vimobi.com:9081/posts/permalink" class="control permalink OverlayTrigger">
+<span>
+<i class="fa fa-share-alt" aria-hidden="true"></i>
+</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="three-small image-row-2">
+<div class="threads">
+<div class="position-3">
+<div class="thread">
+<div class="thread-image" data-src="https://tinhte.vn/store/2017/01/3960672_CV_Thu_thuat_Android_chua_biet_2017_tinhte_7.jpg">
+<a href="threads/chia-se-7-thu-thuat-nho-ma-hay-co-the-ban-chua-biet-trong-android.2673781/">
+<img alt="[Chia sẻ] 7 thủ thuật nhỏ mà hay có thể bạn chưa biết trong Android" title="[Chia sẻ] 7 thủ thuật nhỏ mà hay có thể bạn chưa biết trong Android" src="https://tinhte.vn/data/images/cache/310_220/65/cfe09373278ce09366319b5b1c02d06a.jpg?24801" width="310" height="220">
+</a>
+</div>
+<div class="thread-title image-text image-text-primary">
+<a href="threads/chia-se-7-thu-thuat-nho-ma-hay-co-the-ban-chua-biet-trong-android.2673781/">
+[Chia sẻ] 7 thủ thuật nhỏ mà hay có thể bạn...
+</a>
+</div>
+<div class="image-text image-text-secondary">
+<div class="post-controls controls">
+<a href="http://viettel11.vimobi.com:9081/threads/chia-se-7-thu-thuat-nho-ma-hay-co-the-ban-chua-biet-trong-android.2673781/" class="control views">
+<span>
+<i class="fa fa-eye" aria-hidden="true"></i>
+<span class="counter" style="">52,118</span>
+</span>
+</a>
+<a href="http://viettel11.vimobi.com:9081/threads/chia-se-7-thu-thuat-nho-ma-hay-co-the-ban-chua-biet-trong-android.2673781/#QuickReply" class="control replies">
+<span>
+<i class="fa fa-comment-o" aria-hidden="true"></i>
+<span class="counter" style="">78</span>
+</span>
+</a>
+<div class="controls sharing">
+<div class="bdSocialShare shareControl socialcounters" data-url="http://viettel11.vimobi.com:9081/threads/chia-se-7-thu-thuat-nho-ma-hay-co-the-ban-chua-biet-trong-android.2673781/" data-server="https://tinhte.vn">
+<div class="facebook" title="Chia sẻ lên Facebook">
+<a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fviettel11.vimobi.com%3A9081%2Fthreads%2Fchia-se-7-thu-thuat-nho-ma-hay-co-the-ban-chua-biet-trong-android.2673781%2F" target="_blank">
+<i class="fa fa-facebook" aria-hidden="true"></i>
+<span>Facebook</span>
+<span class="counter" style="display: none">0</span>
+</a>
+</div>
+</div>
+<a href="http://viettel11.vimobi.com:9081/posts/permalink" class="control permalink OverlayTrigger">
+<span>
+<i class="fa fa-share-alt" aria-hidden="true"></i>
+</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="position-4">
+<div class="thread">
+<div class="thread-image" data-src="https://tinhte.vn/store/2016/02/3604193_CV.png">
+<a href="threads/nhung-luu-y-de-chup-anh-dep-hon-trong-dip-tet.2549009/">
+<img alt="Những lưu ý để chụp ảnh đẹp hơn trong dịp Tết" title="Những lưu ý để chụp ảnh đẹp hơn trong dịp Tết" src="https://tinhte.vn/data/images/cache/310_220/6a/740450e3a2f105b4a37451086c88d929.png?176686" width="310" height="220">
+</a>
+</div>
+<div class="thread-title image-text image-text-primary">
+<a href="threads/nhung-luu-y-de-chup-anh-dep-hon-trong-dip-tet.2549009/">
+Những lưu ý để chụp ảnh đẹp hơn trong dịp Tết
+</a>
+</div>
+<div class="image-text image-text-secondary">
+<div class="post-controls controls">
+<a href="http://viettel11.vimobi.com:9081/threads/nhung-luu-y-de-chup-anh-dep-hon-trong-dip-tet.2549009/" class="control views">
+<span>
+<i class="fa fa-eye" aria-hidden="true"></i>
+<span class="counter" style="">84,316</span>
+</span>
+</a>
+<a href="http://viettel11.vimobi.com:9081/threads/nhung-luu-y-de-chup-anh-dep-hon-trong-dip-tet.2549009/#QuickReply" class="control replies">
+<span>
+<i class="fa fa-comment-o" aria-hidden="true"></i>
+<span class="counter" style="">120</span>
+</span>
+</a>
+<div class="controls sharing">
+<div class="bdSocialShare shareControl socialcounters" data-url="http://viettel11.vimobi.com:9081/threads/nhung-luu-y-de-chup-anh-dep-hon-trong-dip-tet.2549009/" data-server="https://tinhte.vn">
+<div class="facebook" title="Chia sẻ lên Facebook">
+<a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fviettel11.vimobi.com%3A9081%2Fthreads%2Fnhung-luu-y-de-chup-anh-dep-hon-trong-dip-tet.2549009%2F" target="_blank">
+<i class="fa fa-facebook" aria-hidden="true"></i>
+<span>Facebook</span>
+<span class="counter" style="display: none">0</span>
+</a>
+</div>
+</div>
+<a href="http://viettel11.vimobi.com:9081/posts/permalink" class="control permalink OverlayTrigger">
+<span>
+<i class="fa fa-share-alt" aria-hidden="true"></i>
+</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="position-5">
+<div class="thread">
+<div class="thread-image" data-src="https://tinhte.vn/store/2017/01/3955036_cv.jpg">
+<a href="threads/cac-nha-khoa-hoc-nhat-tim-duoc-cach-lay-dau-van-tay-tu-anh-chup-nguoi-dung-cach-xa-3-met.2672563/">
+<img alt="Các nhà khoa học Nhật tìm được cách lấy dấu vân tay từ ảnh chụp người dùng cách xa 3 mét" title="Các nhà khoa học Nhật tìm được cách lấy dấu vân tay từ ảnh chụp người dùng cách xa 3 mét" src="https://tinhte.vn/data/images/cache/310_220/77/578555c7bd9aa0b4d11439ddfa3345c5.jpg?20423" width="310" height="220">
+</a>
+</div>
+<div class="thread-title image-text image-text-primary">
+<a href="threads/cac-nha-khoa-hoc-nhat-tim-duoc-cach-lay-dau-van-tay-tu-anh-chup-nguoi-dung-cach-xa-3-met.2672563/">
+Các nhà khoa học Nhật tìm được cách lấy dấu...
+</a>
+</div>
+<div class="image-text image-text-secondary">
+<div class="post-controls controls">
+<a href="http://viettel11.vimobi.com:9081/threads/cac-nha-khoa-hoc-nhat-tim-duoc-cach-lay-dau-van-tay-tu-anh-chup-nguoi-dung-cach-xa-3-met.2672563/" class="control views">
+<span>
+<i class="fa fa-eye" aria-hidden="true"></i>
+<span class="counter" style="">45,329</span>
+</span>
+</a>
+<a href="http://viettel11.vimobi.com:9081/threads/cac-nha-khoa-hoc-nhat-tim-duoc-cach-lay-dau-van-tay-tu-anh-chup-nguoi-dung-cach-xa-3-met.2672563/#QuickReply" class="control replies">
+<span>
+<i class="fa fa-comment-o" aria-hidden="true"></i>
+<span class="counter" style="">83</span>
+</span>
+</a>
+<div class="controls sharing">
+<div class="bdSocialShare shareControl socialcounters" data-url="http://viettel11.vimobi.com:9081/threads/cac-nha-khoa-hoc-nhat-tim-duoc-cach-lay-dau-van-tay-tu-anh-chup-nguoi-dung-cach-xa-3-met.2672563/" data-server="https://tinhte.vn">
+<div class="facebook" title="Chia sẻ lên Facebook">
+<a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fviettel11.vimobi.com%3A9081%2Fthreads%2Fcac-nha-khoa-hoc-nhat-tim-duoc-cach-lay-dau-van-tay-tu-anh-chup-nguoi-dung-cach-xa-3-met.2672563%2F" target="_blank">
+<i class="fa fa-facebook" aria-hidden="true"></i>
+<span>Facebook</span>
+<span class="counter" style="display: none">0</span>
+</a>
+</div>
+</div>
+<a href="http://viettel11.vimobi.com:9081/posts/permalink" class="control permalink OverlayTrigger">
+<span>
+<i class="fa fa-share-alt" aria-hidden="true"></i>
+</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="separator width-wide">&nbsp;</div>
+</div>
+<div id="post-49232220" class="promote section position-5 thread-2674879 forum-628 thread"data-author="ndminhduc">
+<div class="thread-info width-narrow">
+<span class="poster-avatar">
+<a href="members/ndminhduc.1657195/" class="avatar Av1657195m" data-avatarhtml="true"><img src="https://tinhte.vn/data/avatars/m/1657/1657195.jpg?1411038526" width="96" height="96" alt="ndminhduc" /></a>
+</span>
+<span class="poster">
+<a href="members/ndminhduc.1657195/" class="username" dir="auto">ndminhduc</a>
+</span>
+<span class="process-time">
+<a href="threads/dap-xe-1448-km-xuyen-nuoc-anh-bang-kinh-thuc-te-ao.2674879/" class="Tooltip" title="09:37 ngày 30/1/17">09:37 hôm nay</a>
+</span>
+<span class="forum">
+<span>trong</span>
+<a href="forums/xe-dap.628/">Xe đạp</a>
+</span>
+</div><!-- .thread-info -->
+<div class="thread-image width-wide" data-src="https://tinhte.vn/store/2017/01/3962166_cv.jpg">
+<a href="threads/dap-xe-1448-km-xuyen-nuoc-anh-bang-kinh-thuc-te-ao.2674879/">
+<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAACAAAAAL/AQMAAADI3bXxAAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAANVJREFUeJztwQENAAAAwqD3T+1mDqAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAG4CLAABnsnhFQAAAABJRU5ErkJggg==" style="background: url(https://tinhte.vn/store/2017/01/3962166_cv.jpg); background-size: cover;">
+</a>
+</div>
+<div class="thread-title width-narrow">
+<a href="threads/dap-xe-1448-km-xuyen-nuoc-anh-bang-kinh-thuc-te-ao.2674879/">Đạp xe 1448 km xuyên nước Anh bằng kính thực tế ảo</a>
+</div>
+<div class="post-body width-narrow">
+<article>
+<blockquote class="messageText ugc baseHtml">
+<a href="http://viettel11.vimobi.com:9081/threads/dap-xe-1448-km-xuyen-nuoc-anh-bang-kinh-thuc-te-ao.2674879/" class="snippet block">Chuyến hành trình đạp xe trên quãng đường 1448 km được anh chàng người Anh Aaron Puzey tiến hành qua kính thực tế ảo trong tổng cộng 85 giờ, thực hiện trong 8 tháng và đốt cháy được tổng cộng 50.000 calories.<br />
+<div style="text-align: center"><br />
+<div class="LinkExpander direct expanded type-ratio"><br />
+…</div></div></a>
+</blockquote>
+</article>
+</div>
+<div class="post-controls controls width-narrow">
+<a href="http://viettel11.vimobi.com:9081/threads/dap-xe-1448-km-xuyen-nuoc-anh-bang-kinh-thuc-te-ao.2674879/" class="control views">
+<span>
+<i class="fa fa-eye" aria-hidden="true"></i>
+<span class="counter" style="">6,840</span>
+</span>
+</a>
+<a href="http://viettel11.vimobi.com:9081/threads/dap-xe-1448-km-xuyen-nuoc-anh-bang-kinh-thuc-te-ao.2674879/#QuickReply" class="control replies">
+<span>
+<i class="fa fa-comment-o" aria-hidden="true"></i>
+<span class="counter" style="">32</span>
+</span>
+</a>
+<div class="controls sharing">
+<div class="bdSocialShare shareControl socialcounters" data-url="http://viettel11.vimobi.com:9081/threads/dap-xe-1448-km-xuyen-nuoc-anh-bang-kinh-thuc-te-ao.2674879/" data-server="https://tinhte.vn">
+<div class="facebook" title="Chia sẻ lên Facebook">
+<a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fviettel11.vimobi.com%3A9081%2Fthreads%2Fdap-xe-1448-km-xuyen-nuoc-anh-bang-kinh-thuc-te-ao.2674879%2F" target="_blank">
+<i class="fa fa-facebook" aria-hidden="true"></i>
+<span>Facebook</span>
+<span class="counter" style="display: none">0</span>
+</a>
+</div>
+</div>
+<a href="http://viettel11.vimobi.com:9081/posts/49232220/permalink" class="control permalink OverlayTrigger">
+<span>
+<i class="fa fa-share-alt" aria-hidden="true"></i>
+</span>
+</a>
+</div>
+</div>
+<div class="separator width-wide">&nbsp;</div>
+</div>
+<div id="post-49231979" class="promote section position-6 thread-2674870 forum-622 thread"data-author="cuhiep">
+<div class="thread-info width-narrow">
+<span class="poster-avatar">
+<a href="members/cuhiep.3/" class="avatar Av3m" data-avatarhtml="true"><img src="https://tinhte.vn/data/avatars/m/0/3.jpg?1394077624" width="96" height="96" alt="cuhiep" /></a>
+</span>
+<span class="poster">
+<a href="members/cuhiep.3/" class="username" dir="auto">cuhiep</a>
+</span>
+<span class="process-time">
+<a href="threads/night-shift-tren-macos-10-12-14-han-che-tac-hai-khi-dung-may-truoc-khi-ngu.2674870/" class="Tooltip" title="09:36 ngày 30/1/17">09:36 hôm nay</a>
+</span>
+<span class="forum">
+<span>trong</span>
+<a href="forums/mac-phan-mem.622/" title="[Mac] Phần mềm" class="Tooltip">Mac</a>
+</span>
+</div><!-- .thread-info -->
+<div class="thread-image width-wide" data-src="https://tinhte.vn/store/2017/01/3962196_Night-Shift-macOS.gif">
+<a href="threads/night-shift-tren-macos-10-12-14-han-che-tac-hai-khi-dung-may-truoc-khi-ngu.2674870/">
+<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAADAQMAAACUBtwLAAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAAAtJREFUCJljYAABAAAGAAHmh/5/AAAAAElFTkSuQmCC" style="background: url(https://tinhte.vn/store/2017/01/3962196_Night-Shift-macOS.gif); background-size: cover;">
+</a>
+</div>
+<div class="thread-title width-narrow">
+<a href="threads/night-shift-tren-macos-10-12-14-han-che-tac-hai-khi-dung-may-truoc-khi-ngu.2674870/">Night Shift trên macOS 10.12.14: hạn chế tác hại khi dùng máy trước khi ngủ</a>
+</div>
+<div class="post-body width-narrow">
+<article>
+<blockquote class="messageText ugc baseHtml">
+<a href="http://viettel11.vimobi.com:9081/threads/night-shift-tren-macos-10-12-14-han-che-tac-hai-khi-dung-may-truoc-khi-ngu.2674870/" class="snippet block">Khi kích hoạt Night Shift trên máy chạy macOS 10.12.14 (beta) thì máy sẽ chuyển màu màn hình sang vàng, tắt các tia màu xanh gây hại. Qua đó giúp chúng ta phần nào giảm tác hại của ánh sáng xanh liên quan đến các bệnh như mất ngủ, khó ngủ, ngủ không ngon... dĩ nhiên nó chỉ là một phần và sự ảnh hưởng thì không chỉ liên quan đến giấc ngủ và cả…</a>
+</blockquote>
+</article>
+</div>
+<div class="post-controls controls width-narrow">
+<a href="http://viettel11.vimobi.com:9081/threads/night-shift-tren-macos-10-12-14-han-che-tac-hai-khi-dung-may-truoc-khi-ngu.2674870/" class="control views">
+<span>
+<i class="fa fa-eye" aria-hidden="true"></i>
+<span class="counter" style="">5,739</span>
+</span>
+</a>
+<a href="http://viettel11.vimobi.com:9081/threads/night-shift-tren-macos-10-12-14-han-che-tac-hai-khi-dung-may-truoc-khi-ngu.2674870/#QuickReply" class="control replies">
+<span>
+<i class="fa fa-comment-o" aria-hidden="true"></i>
+<span class="counter" style="">46</span>
+</span>
+</a>
+<div class="controls sharing">
+<div class="bdSocialShare shareControl socialcounters" data-url="http://viettel11.vimobi.com:9081/threads/night-shift-tren-macos-10-12-14-han-che-tac-hai-khi-dung-may-truoc-khi-ngu.2674870/" data-server="https://tinhte.vn">
+<div class="facebook" title="Chia sẻ lên Facebook">
+<a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fviettel11.vimobi.com%3A9081%2Fthreads%2Fnight-shift-tren-macos-10-12-14-han-che-tac-hai-khi-dung-may-truoc-khi-ngu.2674870%2F" target="_blank">
+<i class="fa fa-facebook" aria-hidden="true"></i>
+<span>Facebook</span>
+<span class="counter" style="display: none">0</span>
+</a>
+</div>
+</div>
+<a href="http://viettel11.vimobi.com:9081/posts/49231979/permalink" class="control permalink OverlayTrigger">
+<span>
+<i class="fa fa-share-alt" aria-hidden="true"></i>
+</span>
+</a>
+</div>
+</div>
+<div class="separator width-wide">&nbsp;</div>
+</div><div class="adWidget adWidget-gpt ad-18 slot-20" data-ad-id="18">
+<div class="ad-set"><ins class="GptLoader" style="display:block;" data-ad-unit-path="/3823916/Tinhte_Desktop_Forum_Top" data-ad-size-width="728" data-ad-size-height="90"></ins><ins class="GptLoader" style="display:block;" data-ad-unit-path="/3823916/Tinhte_Top_Mobile_Banner" data-ad-size-width="320" data-ad-size-height="100"></ins></div>
+</div>
+<div id="post-49232212" class="promote section position-7 thread-2674878 forum-10 thread"data-author="ndminhduc">
+<div class="thread-info width-narrow">
+<span class="poster-avatar">
+<a href="members/ndminhduc.1657195/" class="avatar Av1657195m" data-avatarhtml="true"><img src="https://tinhte.vn/data/avatars/m/1657/1657195.jpg?1411038526" width="96" height="96" alt="ndminhduc" /></a>
+</span>
+<span class="poster">
+<a href="members/ndminhduc.1657195/" class="username" dir="auto">ndminhduc</a>
+</span>
+<span class="process-time">
+<a href="threads/thang-sau-elon-musk-se-gioi-thieu-he-thong-giao-tiep-nao-may-tinh-tang-tri-thong-minh-chong-lai-ai.2674878/" class="Tooltip" title="08:10 ngày 30/1/17">08:10 hôm nay</a>
+</span>
+<span class="forum">
+<span>trong</span>
+<a href="forums/thong-tin-cong-nghe.10/">Thông tin công nghệ</a>
+</span>
+</div><!-- .thread-info -->
+<div class="thread-image width-wide" data-src="https://tinhte.vn/store/2017/01/3962165_cv.jpg">
+<a href="threads/thang-sau-elon-musk-se-gioi-thieu-he-thong-giao-tiep-nao-may-tinh-tang-tri-thong-minh-chong-lai-ai.2674878/">
+<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAADAQMAAACUBtwLAAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAAAtJREFUCJljYAABAAAGAAHmh/5/AAAAAElFTkSuQmCC" style="background: url(https://tinhte.vn/store/2017/01/3962165_cv.jpg); background-size: cover;">
+</a>
+</div>
+<div class="thread-title width-narrow">
+<a href="threads/thang-sau-elon-musk-se-gioi-thieu-he-thong-giao-tiep-nao-may-tinh-tang-tri-thong-minh-chong-lai-ai.2674878/">Tháng sau Elon Musk sẽ giới thiệu hệ thống giao tiếp não-máy tính, tăng trí thông minh chống lại AI</a>
+</div>
+<div class="post-body width-narrow">
+<article>
+<blockquote class="messageText ugc baseHtml">
+<a href="http://viettel11.vimobi.com:9081/threads/thang-sau-elon-musk-se-gioi-thieu-he-thong-giao-tiep-nao-may-tinh-tang-tri-thong-minh-chong-lai-ai.2674878/" class="snippet block">Elon Musk vừa tiết lộ vào tháng sau ông sẽ ra mắt một hệ thống giao tiếp não - người, một công cụ cho phép kết nối trực tiếp máy tính với vỏ não, cho phép không chỉ dùng ý nghĩ điều khiển máy tính mà có thể “nhập” thông tin ngược từ máy tính vào não để bắt kịp trình độ phát triển cực nhanh của trí thông minh nhân tạo.<br />
+Còn nhớ hồi sự kiện Recode…</a>
+</blockquote>
+</article>
+</div>
+<div class="post-controls controls width-narrow">
+<a href="http://viettel11.vimobi.com:9081/threads/thang-sau-elon-musk-se-gioi-thieu-he-thong-giao-tiep-nao-may-tinh-tang-tri-thong-minh-chong-lai-ai.2674878/" class="control views">
+<span>
+<i class="fa fa-eye" aria-hidden="true"></i>
+<span class="counter" style="">7,285</span>
+</span>
+</a>
+<a href="http://viettel11.vimobi.com:9081/threads/thang-sau-elon-musk-se-gioi-thieu-he-thong-giao-tiep-nao-may-tinh-tang-tri-thong-minh-chong-lai-ai.2674878/#QuickReply" class="control replies">
+<span>
+<i class="fa fa-comment-o" aria-hidden="true"></i>
+<span class="counter" style="">44</span>
+</span>
+</a>
+<div class="controls sharing">
+<div class="bdSocialShare shareControl socialcounters" data-url="http://viettel11.vimobi.com:9081/threads/thang-sau-elon-musk-se-gioi-thieu-he-thong-giao-tiep-nao-may-tinh-tang-tri-thong-minh-chong-lai-ai.2674878/" data-server="https://tinhte.vn">
+<div class="facebook" title="Chia sẻ lên Facebook">
+<a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fviettel11.vimobi.com%3A9081%2Fthreads%2Fthang-sau-elon-musk-se-gioi-thieu-he-thong-giao-tiep-nao-may-tinh-tang-tri-thong-minh-chong-lai-ai.2674878%2F" target="_blank">
+<i class="fa fa-facebook" aria-hidden="true"></i>
+<span>Facebook</span>
+<span class="counter" style="display: none">0</span>
+</a>
+</div>
+</div>
+<a href="http://viettel11.vimobi.com:9081/posts/49232212/permalink" class="control permalink OverlayTrigger">
+<span>
+<i class="fa fa-share-alt" aria-hidden="true"></i>
+</span>
+</a>
+</div>
+</div>
+<div class="separator width-wide">&nbsp;</div>
+</div>
+<div id="post-49226287" class="promote section position-8 thread-2674659 forum-23 thread"data-author="QuanNDD">
+<div class="thread-info width-narrow">
+<span class="poster-avatar">
+<a href="members/quanndd.1967530/" class="avatar Av1967530m" data-avatarhtml="true"><img src="https://tinhte.vn/data/avatars/m/1967/1967530.jpg?1458194644" width="96" height="96" alt="QuanNDD" /></a>
+</span>
+<span class="poster">
+<a href="members/quanndd.1967530/" class="username" dir="auto">QuanNDD</a>
+</span>
+<span class="process-time">
+<a href="threads/ttbc16-hang-muc-bo-xu-ly-may-tinh-ca-nhan.2674659/" class="Tooltip" title="08:00 ngày 30/1/17">08:00 hôm nay</a>
+</span>
+<span class="forum">
+<span>trong</span>
+<a href="forums/win-tin-tuc-danh-gia.23/" title="[Win] Tin tức - Đánh giá" class="Tooltip">Win</a>
+</span>
+</div><!-- .thread-info -->
+<div class="thread-image width-wide" data-src="https://tinhte.vn/store/2017/01/3961919_cv.jpg">
+<a href="threads/ttbc16-hang-muc-bo-xu-ly-may-tinh-ca-nhan.2674659/">
+<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAADAQMAAACUBtwLAAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAAAtJREFUCJljYAABAAAGAAHmh/5/AAAAAElFTkSuQmCC" style="background: url(https://tinhte.vn/store/2017/01/3961919_cv.jpg); background-size: cover;">
+</a>
+</div>
+<div class="thread-title width-narrow">
+<a href="threads/ttbc16-hang-muc-bo-xu-ly-may-tinh-ca-nhan.2674659/">TTBC16 – Hạng mục Bộ xử lý máy tính cá nhân</a>
+</div>
+<div class="post-body width-narrow">
+<article>
+<blockquote class="messageText ugc baseHtml">
+<a href="http://viettel11.vimobi.com:9081/threads/ttbc16-hang-muc-bo-xu-ly-may-tinh-ca-nhan.2674659/" class="snippet block">Không cần nói thì các bạn cũng đoán được Intel vẫn giữ vị thế độc tôn trên thị trường bộ xử lý máy tính cá nhân trong suốt hai thập niên qua. Cụ thể trong tổng số 3.455 lượt bình chọn cho hạng mục Bộ xử lý máy tính năm 2016 thì có đến 94,57% dành cho các sản phẩm của Intel và 4,66% còn lại là AMD.<br />
+Điều này cũng hoàn toàn bình thường vì dù muốn…</a>
+</blockquote>
+</article>
+</div>
+<div class="post-controls controls width-narrow">
+<a href="http://viettel11.vimobi.com:9081/threads/ttbc16-hang-muc-bo-xu-ly-may-tinh-ca-nhan.2674659/" class="control views">
+<span>
+<i class="fa fa-eye" aria-hidden="true"></i>
+<span class="counter" style="">5,634</span>
+</span>
+</a>
+<a href="http://viettel11.vimobi.com:9081/threads/ttbc16-hang-muc-bo-xu-ly-may-tinh-ca-nhan.2674659/#QuickReply" class="control replies">
+<span>
+<i class="fa fa-comment-o" aria-hidden="true"></i>
+<span class="counter" style="">34</span>
+</span>
+</a>
+<div class="controls sharing">
+<div class="bdSocialShare shareControl socialcounters" data-url="http://viettel11.vimobi.com:9081/threads/ttbc16-hang-muc-bo-xu-ly-may-tinh-ca-nhan.2674659/" data-server="https://tinhte.vn">
+<div class="facebook" title="Chia sẻ lên Facebook">
+<a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fviettel11.vimobi.com%3A9081%2Fthreads%2Fttbc16-hang-muc-bo-xu-ly-may-tinh-ca-nhan.2674659%2F" target="_blank">
+<i class="fa fa-facebook" aria-hidden="true"></i>
+<span>Facebook</span>
+<span class="counter" style="display: none">0</span>
+</a>
+</div>
+</div>
+<a href="http://viettel11.vimobi.com:9081/posts/49226287/permalink" class="control permalink OverlayTrigger">
+<span>
+<i class="fa fa-share-alt" aria-hidden="true"></i>
+</span>
+</a>
+</div>
+</div>
+<div class="separator width-wide">&nbsp;</div>
+</div>
+<div id="post-49231632" class="promote section position-9 thread-2674864 forum-544 thread"data-author="IELTSVUIVE">
+<div class="thread-info width-narrow">
+<span class="poster-avatar">
+<a href="members/ieltsvuive.1950124/" class="avatar Av1950124m" data-avatarhtml="true"><img src="https://tinhte.vn/data/avatars/m/1950/1950124.jpg?1472055192" width="96" height="96" alt="IELTSVUIVE" /></a>
+</span>
+<span class="poster">
+<a href="members/ieltsvuive.1950124/" class="username" dir="auto">IELTSVUIVE</a>
+</span>
+<span class="process-time">
+<a href="threads/fz150i-phien-ban-the-light-inside-the-darkness.2674864/" class="Tooltip" title="23:03 ngày 29/1/17">23:03 hôm qua</a>
+</span>
+<span class="forum">
+<span>trong</span>
+<a href="forums/xe-may.544/">Xe máy</a>
+</span>
+</div><!-- .thread-info -->
+<div class="thread-image width-wide" data-src="https://tinhte.vn/store/2017/01/3962147_cv.jpg">
+<a href="threads/fz150i-phien-ban-the-light-inside-the-darkness.2674864/">
+<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAB0MAAAK5AQMAAAD3qRTlAAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAALVJREFUeJztwYEAAAAAw6D5U1/hAFUBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALwGfTgAAZKrHmIAAAAASUVORK5CYII=" style="background: url(https://tinhte.vn/store/2017/01/3962147_cv.jpg); background-size: cover;">
+</a>
+</div>
+<div class="thread-title width-narrow">
+<a href="threads/fz150i-phien-ban-the-light-inside-the-darkness.2674864/">FZ150i - phiên bản &quot;The light inside the darkness&quot;</a>
+</div>
+<div class="post-body width-narrow">
+<article>
+<blockquote class="messageText ugc baseHtml">
+<a href="http://viettel11.vimobi.com:9081/threads/fz150i-phien-ban-the-light-inside-the-darkness.2674864/" class="snippet block">Yamaha Motor từ lâu đã rất nổi tiếng với dòng xe MT-series gồm nhiều phiên bản: MT-125, MT-03, MT-07, MT-09 và MT10. Mỗi chiếc được đặt cho một danh xưng rất &quot;kêu&quot; <br />
+MT-125 - &quot;Don&#039;t be afraid of the Dark&quot; (Đừng run sợ trước bóng tối)<br />
+MT-03 - &quot;Embrace the Darkness&quot; (Quy phục màn đêm)<br />
+MT- 07 - &quot;Rise up your…</a>
+</blockquote>
+</article>
+</div>
+<div class="post-controls controls width-narrow">
+<a href="http://viettel11.vimobi.com:9081/threads/fz150i-phien-ban-the-light-inside-the-darkness.2674864/" class="control views">
+<span>
+<i class="fa fa-eye" aria-hidden="true"></i>
+<span class="counter" style="">15,610</span>
+</span>
+</a>
+<a href="http://viettel11.vimobi.com:9081/threads/fz150i-phien-ban-the-light-inside-the-darkness.2674864/#QuickReply" class="control replies">
+<span>
+<i class="fa fa-comment-o" aria-hidden="true"></i>
+<span class="counter" style="">74</span>
+</span>
+</a>
+<div class="controls sharing">
+<div class="bdSocialShare shareControl socialcounters" data-url="http://viettel11.vimobi.com:9081/threads/fz150i-phien-ban-the-light-inside-the-darkness.2674864/" data-server="https://tinhte.vn">
+<div class="facebook" title="Chia sẻ lên Facebook">
+<a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fviettel11.vimobi.com%3A9081%2Fthreads%2Ffz150i-phien-ban-the-light-inside-the-darkness.2674864%2F" target="_blank">
+<i class="fa fa-facebook" aria-hidden="true"></i>
+<span>Facebook</span>
+<span class="counter" style="display: none">0</span>
+</a>
+</div>
+</div>
+<a href="http://viettel11.vimobi.com:9081/posts/49231632/permalink" class="control permalink OverlayTrigger">
+<span>
+<i class="fa fa-share-alt" aria-hidden="true"></i>
+</span>
+</a>
+</div>
+</div>
+<div class="separator width-wide">&nbsp;</div>
+</div>
+<div id="post-49229719" class="promote section position-10 thread-2674800 forum-76 thread"data-author="ndminhduc">
+<div class="thread-info width-narrow">
+<span class="poster-avatar">
+<a href="members/ndminhduc.1657195/" class="avatar Av1657195m" data-avatarhtml="true"><img src="https://tinhte.vn/data/avatars/m/1657/1657195.jpg?1411038526" width="96" height="96" alt="ndminhduc" /></a>
+</span>
+<span class="poster">
+<a href="members/ndminhduc.1657195/" class="username" dir="auto">ndminhduc</a>
+</span>
+<span class="process-time">
+<a href="threads/tet-2017-loai-ga-da-thong-tri-the-gioi-nhu-the-nao.2674800/" class="Tooltip" title="21:00 ngày 29/1/17">21:00 hôm qua</a>
+</span>
+<span class="forum">
+<span>trong</span>
+<a href="forums/khoa-hoc.76/">Khoa học</a>
+</span>
+</div><!-- .thread-info -->
+<div class="thread-image width-wide" data-src="https://tinhte.vn/store/2017/01/3961974_cv.jpg">
+<a href="threads/tet-2017-loai-ga-da-thong-tri-the-gioi-nhu-the-nao.2674800/">
+<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAADAQMAAACUBtwLAAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAAAtJREFUCJljYAABAAAGAAHmh/5/AAAAAElFTkSuQmCC" style="background: url(https://tinhte.vn/store/2017/01/3961974_cv.jpg); background-size: cover;">
+</a>
+</div>
+<div class="thread-title width-narrow">
+<a href="threads/tet-2017-loai-ga-da-thong-tri-the-gioi-nhu-the-nao.2674800/">[Tết 2017] Loài gà đã thống trị thế giới như thế nào?</a>
+</div>
+<div class="post-body width-narrow">
+<article>
+<blockquote class="messageText ugc baseHtml">
+<a href="http://viettel11.vimobi.com:9081/threads/tet-2017-loai-ga-da-thong-tri-the-gioi-nhu-the-nao.2674800/" class="snippet block">Để từ những con gà rừng làm tổ trên cây, biến thành một trong những món ăn phổ biến nhất thế giới, xuất hiện ở hầu hết các quốc gia, trải dài qua các nền văn hóa, được xem như một biểu tượng của ẩm thực, nông nghiệp, công nghiệp hóa, kinh tế và hội nhập toàn cầu, loài gà đã trải qua hàng năm lịch sử, viết nên một câu chuyện đầy bi tráng. Nhân…</a>
+</blockquote>
+</article>
+</div>
+<div class="post-controls controls width-narrow">
+<a href="http://viettel11.vimobi.com:9081/threads/tet-2017-loai-ga-da-thong-tri-the-gioi-nhu-the-nao.2674800/" class="control views">
+<span>
+<i class="fa fa-eye" aria-hidden="true"></i>
+<span class="counter" style="">23,128</span>
+</span>
+</a>
+<a href="http://viettel11.vimobi.com:9081/threads/tet-2017-loai-ga-da-thong-tri-the-gioi-nhu-the-nao.2674800/#QuickReply" class="control replies">
+<span>
+<i class="fa fa-comment-o" aria-hidden="true"></i>
+<span class="counter" style="">61</span>
+</span>
+</a>
+<div class="controls sharing">
+<div class="bdSocialShare shareControl socialcounters" data-url="http://viettel11.vimobi.com:9081/threads/tet-2017-loai-ga-da-thong-tri-the-gioi-nhu-the-nao.2674800/" data-server="https://tinhte.vn">
+<div class="facebook" title="Chia sẻ lên Facebook">
+<a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fviettel11.vimobi.com%3A9081%2Fthreads%2Ftet-2017-loai-ga-da-thong-tri-the-gioi-nhu-the-nao.2674800%2F" target="_blank">
+<i class="fa fa-facebook" aria-hidden="true"></i>
+<span>Facebook</span>
+<span class="counter" style="display: none">0</span>
+</a>
+</div>
+</div>
+<a href="http://viettel11.vimobi.com:9081/posts/49229719/permalink" class="control permalink OverlayTrigger">
+<span>
+<i class="fa fa-share-alt" aria-hidden="true"></i>
+</span>
+</a>
+</div>
+</div>
+<div class="separator width-wide">&nbsp;</div>
+</div>
+<div class="TT_UTP_layout1l_2s_list">
+<h3><span>Chủ đề <em>nổi bật</em></span></h3>
+<div class="container width-wide">
+<div class="main image-blocks">
+<div class="threads">
+<div class="one-large image-row-1">
+<div class="thread">
+<div class="thread-image" data-src="https://tinhte.vn/store/2017/01/3960563_CV.jpg">
+<a href="threads/huong-dan-cach-tu-doi-qua-sim-4g-cua-viettel-tai-nha-khong-can-ra-cua-hang-doi-cho-nguoi-khac-duoc.2674207/">
+<img alt="Hướng dẫn cách tự đổi qua SIM 4G của Viettel tại nhà, không cần ra cửa hàng, đổi cho người khác được" title="Hướng dẫn cách tự đổi qua SIM 4G của Viettel tại nhà, không cần ra cửa hàng, đổi cho người khác được" src="https://tinhte.vn/data/images/cache/550_350/d8/cd693be84dd72c5f2eff160f38eadd06.jpg?40758" width="550" height="350">
+</a>
+</div>
+<div class="thread-title image-text image-text-primary">
+<a href="threads/huong-dan-cach-tu-doi-qua-sim-4g-cua-viettel-tai-nha-khong-can-ra-cua-hang-doi-cho-nguoi-khac-duoc.2674207/">
+Hướng dẫn cách tự đổi qua SIM 4G của Viettel tại nhà, không cần ra cửa hàng, đổi cho người khác được
+</a>
+</div>
+<div class="image-text image-text-secondary">
+<div class="post-controls controls">
+<a href="https://tinhte.vn/threads/huong-dan-cach-tu-doi-qua-sim-4g-cua-viettel-tai-nha-khong-can-ra-cua-hang-doi-cho-nguoi-khac-duoc.2674207/" class="control views">
+<span>
+<i class="fa fa-eye" aria-hidden="true"></i>
+<span class="counter" style="">281,155</span>
+</span>
+</a>
+<a href="https://tinhte.vn/threads/huong-dan-cach-tu-doi-qua-sim-4g-cua-viettel-tai-nha-khong-can-ra-cua-hang-doi-cho-nguoi-khac-duoc.2674207/#QuickReply" class="control replies">
+<span>
+<i class="fa fa-comment-o" aria-hidden="true"></i>
+<span class="counter" style="">375</span>
+</span>
+</a>
+<div class="controls sharing">
+<div class="bdSocialShare shareControl socialcounters" data-url="https://tinhte.vn/threads/huong-dan-cach-tu-doi-qua-sim-4g-cua-viettel-tai-nha-khong-can-ra-cua-hang-doi-cho-nguoi-khac-duoc.2674207/" data-server="https://tinhte.vn">
+<div class="facebook" title="Chia sẻ lên Facebook">
+<a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Ftinhte.vn%2Fthreads%2Fhuong-dan-cach-tu-doi-qua-sim-4g-cua-viettel-tai-nha-khong-can-ra-cua-hang-doi-cho-nguoi-khac-duoc.2674207%2F" target="_blank">
+<i class="fa fa-facebook" aria-hidden="true"></i>
+<span>Facebook</span>
+<span class="counter" style="display: none">0</span>
+</a>
+</div>
+</div>
+<a href="https://tinhte.vn/posts/permalink" class="control permalink OverlayTrigger">
+<span>
+<i class="fa fa-share-alt" aria-hidden="true"></i>
+</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="two-small image-row-2">
+<div class="one-small small-2">
+<div class="thread">
+<div class="thread-image" data-src="https://tinhte.vn/store/2017/01/3960471_cv.gif">
+<a href="threads/vui-10-cach-mo-nap-chai-khong-can-dung-do-khui.2674197/">
+<img alt="[Vui] 10 cách mở nắp chai không cần dùng đồ khui" title="[Vui] 10 cách mở nắp chai không cần dùng đồ khui" src="https://tinhte.vn/data/images/cache/265_240/e6/ff74bdcda8bfb4643e8769fc77401972.gif?122565" width="265" height="240">
+</a>
+</div>
+<div class="thread-title image-text image-text-primary">
+<a href="threads/vui-10-cach-mo-nap-chai-khong-can-dung-do-khui.2674197/">
+[Vui] 10 cách mở nắp chai không cần dùng đồ khui
+</a>
+</div>
+<div class="image-text image-text-secondary">
+<div class="post-controls controls">
+<a href="https://tinhte.vn/threads/vui-10-cach-mo-nap-chai-khong-can-dung-do-khui.2674197/" class="control views">
+<span>
+<i class="fa fa-eye" aria-hidden="true"></i>
+<span class="counter" style="">86,794</span>
+</span>
+</a>
+<a href="https://tinhte.vn/threads/vui-10-cach-mo-nap-chai-khong-can-dung-do-khui.2674197/#QuickReply" class="control replies">
+<span>
+<i class="fa fa-comment-o" aria-hidden="true"></i>
+<span class="counter" style="">135</span>
+</span>
+</a>
+<div class="controls sharing">
+<div class="bdSocialShare shareControl socialcounters" data-url="https://tinhte.vn/threads/vui-10-cach-mo-nap-chai-khong-can-dung-do-khui.2674197/" data-server="https://tinhte.vn">
+<div class="facebook" title="Chia sẻ lên Facebook">
+<a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Ftinhte.vn%2Fthreads%2Fvui-10-cach-mo-nap-chai-khong-can-dung-do-khui.2674197%2F" target="_blank">
+<i class="fa fa-facebook" aria-hidden="true"></i>
+<span>Facebook</span>
+<span class="counter" style="display: none">0</span>
+</a>
+</div>
+</div>
+<a href="https://tinhte.vn/posts/permalink" class="control permalink OverlayTrigger">
+<span>
+<i class="fa fa-share-alt" aria-hidden="true"></i>
+</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="one-small small-3">
+<div class="thread">
+<div class="thread-image" data-src="https://tinhte.vn/store/2017/01/3960861_cv_Samsung_Galaxy_Note_7_chay_no_tuong_lai.jpg">
+<a href="threads/samsung-dung-cam-nhan-loi-voi-note-7-tot-gio-la-luc-tien-ve-phia-truoc.2674225/">
+<img alt="Samsung dũng cảm nhận lỗi với Note 7, tốt, giờ là lúc tiến về phía trước" title="Samsung dũng cảm nhận lỗi với Note 7, tốt, giờ là lúc tiến về phía trước" src="https://tinhte.vn/data/images/cache/265_240/14/1069a0e5b3f85c681fbb4774a15f4179.jpg?15656" width="265" height="240">
+</a>
+</div>
+<div class="thread-title image-text image-text-primary">
+<a href="threads/samsung-dung-cam-nhan-loi-voi-note-7-tot-gio-la-luc-tien-ve-phia-truoc.2674225/">
+Samsung dũng cảm nhận lỗi với Note 7, tốt, giờ...
+</a>
+</div>
+<div class="image-text image-text-secondary">
+<div class="post-controls controls">
+<a href="https://tinhte.vn/threads/samsung-dung-cam-nhan-loi-voi-note-7-tot-gio-la-luc-tien-ve-phia-truoc.2674225/" class="control views">
+<span>
+<i class="fa fa-eye" aria-hidden="true"></i>
+<span class="counter" style="">61,859</span>
+</span>
+</a>
+<a href="https://tinhte.vn/threads/samsung-dung-cam-nhan-loi-voi-note-7-tot-gio-la-luc-tien-ve-phia-truoc.2674225/#QuickReply" class="control replies">
+<span>
+<i class="fa fa-comment-o" aria-hidden="true"></i>
+<span class="counter" style="">679</span>
+</span>
+</a>
+<div class="controls sharing">
+<div class="bdSocialShare shareControl socialcounters" data-url="https://tinhte.vn/threads/samsung-dung-cam-nhan-loi-voi-note-7-tot-gio-la-luc-tien-ve-phia-truoc.2674225/" data-server="https://tinhte.vn">
+<div class="facebook" title="Chia sẻ lên Facebook">
+<a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Ftinhte.vn%2Fthreads%2Fsamsung-dung-cam-nhan-loi-voi-note-7-tot-gio-la-luc-tien-ve-phia-truoc.2674225%2F" target="_blank">
+<i class="fa fa-facebook" aria-hidden="true"></i>
+<span>Facebook</span>
+<span class="counter" style="display: none">0</span>
+</a>
+</div>
+</div>
+<a href="https://tinhte.vn/posts/permalink" class="control permalink OverlayTrigger">
+<span>
+<i class="fa fa-share-alt" aria-hidden="true"></i>
+</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="list">
+<div class="threads">
+<div class="thread">
+<div class="thread-title image-text image-text-primary">
+<a href="threads/ro-ri-anh-render-galaxy-s8.2674746/">
+Rò rỉ ảnh render Galaxy S8
+</a>
+</div>
+<div class="image-text image-text-secondary">
+<div class="thread-info">
+<span class="datetime">
+<abbr class="DateTime" data-time="1485584607" data-diff="187490" data-datestring="28/1/17" data-timestring="13:23">13:23 ngày 28/1/17</abbr>
+-
+</span>
+<span class="poster">
+bởi <a href="members/tdnc.16287/" class="username" dir="auto">TDNC</a>
+</span>
+<span class="forum">
+<span>trong</span>
+<a href="forums/android-tin-tuc-danh-gia.151/" title="[Android] Tin tức - Đánh giá" class="Tooltip">Android</a>
+</span>
+</div>
+</div>
+</div>
+<div class="thread">
+<div class="thread-title image-text image-text-primary">
+<a href="threads/anh-em-dang-xai-cuc-sac-nhieu-cong-nao-co-ben-hay-de-hong-khong.2674409/">
+Anh em đang xài cục sạc nhiều cổng nào, có bền hay dễ hỏng không?
+</a>
+</div>
+<div class="image-text image-text-secondary">
+<div class="thread-info">
+<span class="datetime">
+<abbr class="DateTime" data-time="1485299075" data-diff="473022" data-datestring="25/1/17" data-timestring="06:04">06:04 ngày 25/1/17</abbr>
+-
+</span>
+<span class="poster">
+bởi <a href="members/duy-luan.39792/" class="username" dir="auto">Duy Luân</a>
+</span>
+<span class="forum">
+<span>trong</span>
+<a href="forums/thiet-bi-ngoai-vi.29/">Thiết bị ngoại vi</a>
+</span>
+</div>
+</div>
+</div>
+<div class="thread">
+<div class="thread-title image-text image-text-primary">
+<a href="threads/ben-trong-can-ham-an-ninh-duoi-long-dat-london-noi-nguoi-giau-cat-giu-tai-san-quy-gia-nhay-cam.2674302/">
+Bên trong căn hầm an ninh dưới lòng đất London, nơi người giàu cất giữ tài sản quý giá, nhạy cảm
+</a>
+</div>
+<div class="image-text image-text-secondary">
+<div class="thread-info">
+<span class="datetime">
+<abbr class="DateTime" data-time="1485237847" data-diff="534250" data-datestring="24/1/17" data-timestring="13:04">13:04 ngày 24/1/17</abbr>
+-
+</span>
+<span class="poster">
+bởi <a href="members/ndminhduc.1657195/" class="username" dir="auto">ndminhduc</a>
+</span>
+<span class="forum">
+<span>trong</span>
+<a href="forums/khoa-hoc.76/">Khoa học</a>
+</span>
+</div>
+</div>
+</div>
+<div class="thread">
+<div class="thread-title image-text image-text-primary">
+<a href="threads/da-co-pokemon-duel-dieu-khien-cac-pokemon-dau-voi-nhau-moi-tai-ve.2674422/">
+Đã có Pokemon Duel điều khiển các Pokemon đấu với nhau, mời tải về
+</a>
+</div>
+<div class="image-text image-text-secondary">
+<div class="thread-info">
+<span class="datetime">
+<abbr class="DateTime" data-time="1485315207" data-diff="456890" data-datestring="25/1/17" data-timestring="10:33">10:33 ngày 25/1/17</abbr>
+-
+</span>
+<span class="poster">
+bởi <a href="members/sonlazio.13809/" class="username" dir="auto">sonlazio</a>
+</span>
+<span class="forum">
+<span>trong</span>
+<a href="forums/dam-may-dich-vu-truc-tuyen.460/">Đám mây, Dịch vụ trực tuyến</a>
+</span>
+</div>
+</div>
+</div>
+<div class="thread">
+<div class="thread-title image-text image-text-primary">
+<a href="threads/day-la-lg-g6-voi-vien-man-hinh-mong-ti-le-2-1-dung-kinh-va-kim-loai-chong-nuoc-bo-module.2674253/">
+Đây là LG G6 với viền màn hình mỏng tỉ lệ 2:1, dùng kính và kim loại, chống nước, bỏ module
+</a>
+</div>
+<div class="image-text image-text-secondary">
+<div class="thread-info">
+<span class="datetime">
+<abbr class="DateTime" data-time="1485211662" data-diff="560435" data-datestring="24/1/17" data-timestring="05:47">05:47 ngày 24/1/17</abbr>
+-
+</span>
+<span class="poster">
+bởi <a href="members/duy-luan.39792/" class="username" dir="auto">Duy Luân</a>
+</span>
+<span class="forum">
+<span>trong</span>
+<a href="forums/android-tin-tuc-danh-gia.151/" title="[Android] Tin tức - Đánh giá" class="Tooltip">Android</a>
+</span>
+</div>
+</div>
+</div>
+<div class="thread">
+<div class="thread-title image-text image-text-primary">
+<a href="threads/galaxy-s8-van-con-jack-3-5mm-man-hinh-vien-mong-ti-le-18-5-9-cam-bien-van-tay-sau-lung.2674623/">
+Galaxy S8 vẫn còn jack 3,5mm, màn hình viền mỏng tỉ lệ 18.5:9, cảm biến vân tay sau lưng?
+</a>
+</div>
+<div class="image-text image-text-secondary">
+<div class="thread-info">
+<span class="datetime">
+<abbr class="DateTime" data-time="1485466855" data-diff="305242" data-datestring="27/1/17" data-timestring="04:40">04:40 ngày 27/1/17</abbr>
+-
+</span>
+<span class="poster">
+bởi <a href="members/duy-luan.39792/" class="username" dir="auto">Duy Luân</a>
+</span>
+<span class="forum">
+<span>trong</span>
+<a href="forums/android-tin-tuc-danh-gia.151/" title="[Android] Tin tức - Đánh giá" class="Tooltip">Android</a>
+</span>
+</div>
+</div>
+</div>
+<div class="thread">
+<div class="thread-title image-text image-text-primary">
+<a href="threads/snapdragon-835-duoc-uu-tien-cho-galaxy-s8-nen-lg-g6-phai-dung-chip-821-cu.2674408/">
+Snapdragon 835 được ưu tiên cho Galaxy S8 nên LG G6 phải dùng chip 821 cũ?
+</a>
+</div>
+<div class="image-text image-text-secondary">
+<div class="thread-info">
+<span class="datetime">
+<abbr class="DateTime" data-time="1485298867" data-diff="473230" data-datestring="25/1/17" data-timestring="06:01">06:01 ngày 25/1/17</abbr>
+-
+</span>
+<span class="poster">
+bởi <a href="members/duy-luan.39792/" class="username" dir="auto">Duy Luân</a>
+</span>
+<span class="forum">
+<span>trong</span>
+<a href="forums/android-tin-tuc-danh-gia.151/" title="[Android] Tin tức - Đánh giá" class="Tooltip">Android</a>
+</span>
+</div>
+</div>
+</div>
+<div class="thread">
+<div class="thread-title image-text image-text-primary">
+<a href="threads/ninja-spinki-challenges-game-moi-cua-nguyen-ha-dong-phat-hanh-sieu-kho-co-cho-ios-android.2674669/">
+Ninja Spinki Challenges: game mới của Nguyễn Hà Đông phát hành, siêu khó, có cho iOS/Android
+</a>
+</div>
+<div class="image-text image-text-secondary">
+<div class="thread-info">
+<span class="datetime">
+<abbr class="DateTime" data-time="1485499080" data-diff="273017" data-datestring="27/1/17" data-timestring="13:38">13:38 ngày 27/1/17</abbr>
+-
+</span>
+<span class="poster">
+bởi <a href="members/ndminhduc.1657195/" class="username" dir="auto">ndminhduc</a>
+</span>
+<span class="forum">
+<span>trong</span>
+<a href="forums/dam-may-dich-vu-truc-tuyen.460/">Đám mây, Dịch vụ trực tuyến</a>
+</span>
+</div>
+</div>
+</div>
+<div class="thread">
+<div class="thread-title image-text image-text-primary">
+<a href="threads/samsung-se-tiep-tuc-giu-thuong-hieu-galaxy-note-8-vi-fan-con-dong.2674226/">
+Samsung sẽ tiếp tục giữ thương hiệu Galaxy Note 8 vì fan còn đông
+</a>
+</div>
+<div class="image-text image-text-secondary">
+<div class="thread-info">
+<span class="datetime">
+<span class="DateTime" title="22:29 ngày 23/1/17">23/1/17</span>
+-
+</span>
+<span class="poster">
+bởi <a href="members/duy-luan.39792/" class="username" dir="auto">Duy Luân</a>
+</span>
+<span class="forum">
+<span>trong</span>
+<a href="forums/android-tin-tuc-danh-gia.151/" title="[Android] Tin tức - Đánh giá" class="Tooltip">Android</a>
+</span>
+</div>
+</div>
+</div>
+<div class="thread">
+<div class="thread-title image-text image-text-primary">
+<a href="threads/vertu-constellation-moi-lan-dau-tien-co-2-sim-cau-hinh-cao-2k-usb-c-4-gb-ram-chua-biet-gia.2674535/">
+Vertu Constellation mới: Lần đầu tiên có 2 SIM, cấu hình cao (2K, USB-C, 4 GB RAM), chưa biết giá
+</a>
+</div>
+<div class="image-text image-text-secondary">
+<div class="thread-info">
+<span class="datetime">
+<abbr class="DateTime" data-time="1485395891" data-diff="376206" data-datestring="26/1/17" data-timestring="08:58">08:58 ngày 26/1/17</abbr>
+-
+</span>
+<span class="poster">
+bởi <a href="members/tdnc.16287/" class="username" dir="auto">TDNC</a>
+</span>
+<span class="forum">
+<span>trong</span>
+<a href="forums/android-tin-tuc-danh-gia.151/" title="[Android] Tin tức - Đánh giá" class="Tooltip">Android</a>
+</span>
+</div>
+</div>
+</div>
+<div class="thread">
+<div class="thread-title image-text image-text-primary">
+<a href="threads/asus-ra-mat-tinker-board-doi-thu-cua-raspberry-pi-3-xem-duoc-4k-gia-55-euro.2674268/">
+ASUS ra mắt Tinker Board, đối thủ của Raspberry Pi 3, xem được 4K, giá 55 Euro
+</a>
+</div>
+<div class="image-text image-text-secondary">
+<div class="thread-info">
+<span class="datetime">
+<abbr class="DateTime" data-time="1485226685" data-diff="545412" data-datestring="24/1/17" data-timestring="09:58">09:58 ngày 24/1/17</abbr>
+-
+</span>
+<span class="poster">
+bởi <a href="members/tdnc.16287/" class="username" dir="auto">TDNC</a>
+</span>
+<span class="forum">
+<span>trong</span>
+<a href="forums/may-tinh-linux.79/">Máy tính Linux</a>
+</span>
+</div>
+</div>
+</div>
+<div class="thread">
+<div class="thread-title image-text image-text-primary">
+<a href="threads/dong-ho-tan-the-2017-nhich-them-30-giay-gan-nua-dem-nhat-lich-su-con-2-5-phut-nua-la-tan-the.2674672/">
+Đồng hồ tận thế 2017: nhích thêm 30 giây, gần nửa đêm nhất lịch sử, còn 2,5 phút nữa là tận thế
+</a>
+</div>
+<div class="image-text image-text-secondary">
+<div class="thread-info">
+<span class="datetime">
+<abbr class="DateTime" data-time="1485501927" data-diff="270170" data-datestring="27/1/17" data-timestring="14:25">14:25 ngày 27/1/17</abbr>
+-
+</span>
+<span class="poster">
+bởi <a href="members/ndminhduc.1657195/" class="username" dir="auto">ndminhduc</a>
+</span>
+<span class="forum">
+<span>trong</span>
+<a href="forums/khoa-hoc.76/">Khoa học</a>
+</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="separator width-wide">&nbsp;</div>
+</div>
+<div id="post-49228389" class="promote section position-11 thread-2674739 forum-293 thread"data-author="Airblade14">
+<div class="thread-info width-narrow">
+<span class="poster-avatar">
+<a href="members/airblade14.21346/" class="avatar Av21346m" data-avatarhtml="true"><img src="https://tinhte.vn/data/avatars/m/21/21346.jpg?1480824379" width="96" height="96" alt="Airblade14" /></a>
+</span>
+<span class="poster">
+<a href="members/airblade14.21346/" class="username" dir="auto">Airblade14</a>
+</span>
+<span class="process-time">
+<a href="threads/tet-2017-li-xi-dau-nam-bo-lego-batman-voucher-xem-phim-qua-khac-ten.2674739/" class="Tooltip" title="20:59 ngày 29/1/17">20:59 hôm qua</a>
+</span>
+<span class="forum">
+<span>trong</span>
+<a href="forums/dien-tu-tieu-dung.293/">Điện tử - Tiêu dùng</a>
+</span>
+</div><!-- .thread-info -->
+<div class="thread-image width-wide" data-src="https://tinhte.vn/store/2017/01/3961778_cv.jpg">
+<a href="threads/tet-2017-li-xi-dau-nam-bo-lego-batman-voucher-xem-phim-qua-khac-ten.2674739/">
+<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAADAQMAAACUBtwLAAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAAAtJREFUCJljYAABAAAGAAHmh/5/AAAAAElFTkSuQmCC" style="background: url(https://tinhte.vn/store/2017/01/3961778_cv.jpg); background-size: cover;">
+</a>
+</div>
+<div class="thread-title width-narrow">
+<a href="threads/tet-2017-li-xi-dau-nam-bo-lego-batman-voucher-xem-phim-qua-khac-ten.2674739/">[Tết 2017] Lì xì đầu năm: Bộ Lego Batman + voucher xem phim + quà Khắc Tên</a>
+</div>
+<div class="post-body width-narrow">
+<article>
+<blockquote class="messageText ugc baseHtml">
+<a href="http://viettel11.vimobi.com:9081/threads/tet-2017-li-xi-dau-nam-bo-lego-batman-voucher-xem-phim-qua-khac-ten.2674739/" class="snippet block">Được biết đến là người hùng của thành phố Gotham, Batman đã, đang và sẽ vẫn là một trong những siêu anh hùng được yêu thích nhất của DC Comics. Trong năm 2017 này, lần đầu tiên trên màn ảnh rộng, fan hâm mộ sẽ được gặp gỡ phiên bản Batman hoàn toàn khác trong siêu phẩm THE LEGO BATMAN MOVIE, một sự kết hợp độc đáo của hãng đồ chơi danh tiếng…</a>
+</blockquote>
+</article>
+</div>
+<div class="post-controls controls width-narrow">
+<a href="http://viettel11.vimobi.com:9081/threads/tet-2017-li-xi-dau-nam-bo-lego-batman-voucher-xem-phim-qua-khac-ten.2674739/" class="control views">
+<span>
+<i class="fa fa-eye" aria-hidden="true"></i>
+<span class="counter" style="">12,971</span>
+</span>
+</a>
+<a href="http://viettel11.vimobi.com:9081/threads/tet-2017-li-xi-dau-nam-bo-lego-batman-voucher-xem-phim-qua-khac-ten.2674739/#QuickReply" class="control replies">
+<span>
+<i class="fa fa-comment-o" aria-hidden="true"></i>
+<span class="counter" style="">481</span>
+</span>
+</a>
+<div class="controls sharing">
+<div class="bdSocialShare shareControl socialcounters" data-url="http://viettel11.vimobi.com:9081/threads/tet-2017-li-xi-dau-nam-bo-lego-batman-voucher-xem-phim-qua-khac-ten.2674739/" data-server="https://tinhte.vn">
+<div class="facebook" title="Chia sẻ lên Facebook">
+<a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fviettel11.vimobi.com%3A9081%2Fthreads%2Ftet-2017-li-xi-dau-nam-bo-lego-batman-voucher-xem-phim-qua-khac-ten.2674739%2F" target="_blank">
+<i class="fa fa-facebook" aria-hidden="true"></i>
+<span>Facebook</span>
+<span class="counter" style="display: none">0</span>
+</a>
+</div>
+</div>
+<a href="http://viettel11.vimobi.com:9081/posts/49228389/permalink" class="control permalink OverlayTrigger">
+<span>
+<i class="fa fa-share-alt" aria-hidden="true"></i>
+</span>
+</a>
+</div>
+</div>
+<div class="separator width-wide">&nbsp;</div>
+</div>
+<div id="post-49227491" class="promote section position-12 thread-2674703 forum-118 thread"data-author="Duy Luân">
+<div class="thread-info width-narrow">
+<span class="poster-avatar">
+<a href="members/duy-luan.39792/" class="avatar Av39792m" data-avatarhtml="true"><img src="https://tinhte.vn/data/avatars/m/39/39792.jpg?1443578511" width="96" height="96" alt="Duy Luân" /></a>
+</span>
+<span class="poster">
+<a href="members/duy-luan.39792/" class="username" dir="auto">Duy Luân</a>
+</span>
+<span class="process-time">
+<a href="threads/chia-se-ipad-7-tuoi-vi-sao-minh-luon-chon-ipad-khi-can-sam-tablet-moi-suot-7-nam-qua.2674703/" class="Tooltip" title="20:45 ngày 29/1/17">20:45 hôm qua</a>
+</span>
+<span class="forum">
+<span>trong</span>
+<a href="forums/ios-tin-tuc-danh-gia.118/" title="[iOS] Tin tức - Đánh giá" class="Tooltip">iOS</a>
+</span>
+</div><!-- .thread-info -->
+<div class="thread-image width-wide" data-src="https://tinhte.vn/store/2017/01/3961751_cv_iPad_7_nam_tuoi.jpeg">
+<a href="threads/chia-se-ipad-7-tuoi-vi-sao-minh-luon-chon-ipad-khi-can-sam-tablet-moi-suot-7-nam-qua.2674703/">
+<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAeAAAADBAQMAAAAtnfHxAAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAACJJREFUaIHtwTEBAAAAwqD1T20ND6AAAAAAAAAAAAAAALg3Lf0AAd8EqYAAAAAASUVORK5CYII=" style="background: url(https://tinhte.vn/store/2017/01/3961751_cv_iPad_7_nam_tuoi.jpeg); background-size: cover;">
+</a>
+</div>
+<div class="thread-title width-narrow">
+<a href="threads/chia-se-ipad-7-tuoi-vi-sao-minh-luon-chon-ipad-khi-can-sam-tablet-moi-suot-7-nam-qua.2674703/">[Chia sẻ] iPad 7 tuổi: vì sao mình luôn chọn iPad khi cần sắm tablet mới suốt 7 năm qua?</a>
+</div>
+<div class="post-body width-narrow">
+<article>
+<blockquote class="messageText ugc baseHtml">
+<a href="http://viettel11.vimobi.com:9081/threads/chia-se-ipad-7-tuoi-vi-sao-minh-luon-chon-ipad-khi-can-sam-tablet-moi-suot-7-nam-qua.2674703/" class="snippet block">Mình đã dùng iPad kể từ thế hệ đầu tiên (2010), và đến nay iPad vẫn là người bạn trung thành của mình. Trong suốt thời gian 7 năm qua, mình cũng đã từng trải nghiệm nhiều loại tablet khác, từ Android cho đến Windows, thậm chí nhiều lần muốn nâng cấp máy suýt chút nữa là đổi sang tablet khác nhưng cuối cùng rồi lại vẫn quay về với iPad. Xin chia…</a>
+</blockquote>
+</article>
+</div>
+<div class="post-controls controls width-narrow">
+<a href="http://viettel11.vimobi.com:9081/threads/chia-se-ipad-7-tuoi-vi-sao-minh-luon-chon-ipad-khi-can-sam-tablet-moi-suot-7-nam-qua.2674703/" class="control views">
+<span>
+<i class="fa fa-eye" aria-hidden="true"></i>
+<span class="counter" style="">32,326</span>
+</span>
+</a>
+<a href="http://viettel11.vimobi.com:9081/threads/chia-se-ipad-7-tuoi-vi-sao-minh-luon-chon-ipad-khi-can-sam-tablet-moi-suot-7-nam-qua.2674703/#QuickReply" class="control replies">
+<span>
+<i class="fa fa-comment-o" aria-hidden="true"></i>
+<span class="counter" style="">255</span>
+</span>
+</a>
+<div class="controls sharing">
+<div class="bdSocialShare shareControl socialcounters" data-url="http://viettel11.vimobi.com:9081/threads/chia-se-ipad-7-tuoi-vi-sao-minh-luon-chon-ipad-khi-can-sam-tablet-moi-suot-7-nam-qua.2674703/" data-server="https://tinhte.vn">
+<div class="facebook" title="Chia sẻ lên Facebook">
+<a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fviettel11.vimobi.com%3A9081%2Fthreads%2Fchia-se-ipad-7-tuoi-vi-sao-minh-luon-chon-ipad-khi-can-sam-tablet-moi-suot-7-nam-qua.2674703%2F" target="_blank">
+<i class="fa fa-facebook" aria-hidden="true"></i>
+<span>Facebook</span>
+<span class="counter" style="display: none">0</span>
+</a>
+</div>
+</div>
+<a href="http://viettel11.vimobi.com:9081/posts/49227491/permalink" class="control permalink OverlayTrigger">
+<span>
+<i class="fa fa-share-alt" aria-hidden="true"></i>
+</span>
+</a>
+</div>
+</div>
+<div class="separator width-wide">&nbsp;</div>
+</div>
+<div id="post-49230476" class="promote section position-13 thread-2674828 forum-660 thread"data-author="tuanlionsg">
+<div class="thread-info width-narrow">
+<span class="poster-avatar">
+<a href="members/tuanlionsg.298/" class="avatar Av298m" data-avatarhtml="true"><img src="https://tinhte.vn/data/avatars/m/0/298.jpg?1394077624" width="96" height="96" alt="tuanlionsg" /></a>
+</span>
+<span class="poster">
+<a href="members/tuanlionsg.298/" class="username" dir="auto">tuanlionsg</a>
+</span>
+<span class="process-time">
+<a href="threads/chup-thu-12fps-va-130-frame-lien-tiep-cua-nikon-d5-qua-khung.2674828/" class="Tooltip" title="19:51 ngày 29/1/17">19:51 hôm qua</a>
+</span>
+<span class="forum">
+<span>trong</span>
+<a href="forums/danh-gia.660/">Đánh giá</a>
+</span>
+</div><!-- .thread-info -->
+<div class="thread-image width-wide" data-src="https://tinhte.vn/store/2017/01/3962039_CV.gif">
+<a href="threads/chup-thu-12fps-va-130-frame-lien-tiep-cua-nikon-d5-qua-khung.2674828/">
+<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAFAQMAAAB2Jv4KAAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAAAtJREFUCJljYEABAAAPAAGtXbCJAAAAAElFTkSuQmCC" style="background: url(https://tinhte.vn/store/2017/01/3962039_CV.gif); background-size: cover;">
+</a>
+</div>
+<div class="thread-title width-narrow">
+<a href="threads/chup-thu-12fps-va-130-frame-lien-tiep-cua-nikon-d5-qua-khung.2674828/">Chụp thử 12fps và 130 frame liên tiếp của Nikon D5: quá khủng!</a>
+</div>
+<div class="post-body width-narrow">
+<article>
+<blockquote class="messageText ugc baseHtml">
+<a href="http://viettel11.vimobi.com:9081/threads/chup-thu-12fps-va-130-frame-lien-tiep-cua-nikon-d5-qua-khung.2674828/" class="snippet block">Nikon D5 có tốc độ chụp liên tục với khả năng bộ đệm cao: Nikon D5 có chế độ chụp liên tục cao nhất CH là 12 ảnh/giây và 14 ảnh /giây với điều kiện khoá gương lật và không dùng AF-tracking trong khi D4S chỉ là 11 ảnh/giây. Mình thử thẻ CF cũ 80MB/s có thể chụp 53 ảnh NEF (RAW Large) không nén. Và, nay mới có dịp thử 12fps với thẻ CF Sandisk…</a>
+</blockquote>
+</article>
+</div>
+<div class="post-controls controls width-narrow">
+<a href="http://viettel11.vimobi.com:9081/threads/chup-thu-12fps-va-130-frame-lien-tiep-cua-nikon-d5-qua-khung.2674828/" class="control views">
+<span>
+<i class="fa fa-eye" aria-hidden="true"></i>
+<span class="counter" style="">16,466</span>
+</span>
+</a>
+<a href="http://viettel11.vimobi.com:9081/threads/chup-thu-12fps-va-130-frame-lien-tiep-cua-nikon-d5-qua-khung.2674828/#QuickReply" class="control replies">
+<span>
+<i class="fa fa-comment-o" aria-hidden="true"></i>
+<span class="counter" style="">44</span>
+</span>
+</a>
+<div class="controls sharing">
+<div class="bdSocialShare shareControl socialcounters" data-url="http://viettel11.vimobi.com:9081/threads/chup-thu-12fps-va-130-frame-lien-tiep-cua-nikon-d5-qua-khung.2674828/" data-server="https://tinhte.vn">
+<div class="facebook" title="Chia sẻ lên Facebook">
+<a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fviettel11.vimobi.com%3A9081%2Fthreads%2Fchup-thu-12fps-va-130-frame-lien-tiep-cua-nikon-d5-qua-khung.2674828%2F" target="_blank">
+<i class="fa fa-facebook" aria-hidden="true"></i>
+<span>Facebook</span>
+<span class="counter" style="display: none">0</span>
+</a>
+</div>
+</div>
+<a href="http://viettel11.vimobi.com:9081/posts/49230476/permalink" class="control permalink OverlayTrigger">
+<span>
+<i class="fa fa-share-alt" aria-hidden="true"></i>
+</span>
+</a>
+</div>
+</div>
+<div class="separator width-wide">&nbsp;</div>
+</div>
+<div id="post-49228751" class="promote section position-14 thread-2674750 forum-293 thread"data-author="Airblade14">
+<div class="thread-info width-narrow">
+<span class="poster-avatar">
+<a href="members/airblade14.21346/" class="avatar Av21346m" data-avatarhtml="true"><img src="https://tinhte.vn/data/avatars/m/21/21346.jpg?1480824379" width="96" height="96" alt="Airblade14" /></a>
+</span>
+<span class="poster">
+<a href="members/airblade14.21346/" class="username" dir="auto">Airblade14</a>
+</span>
+<span class="process-time">
+<a href="threads/nhung-tua-phim-noi-bat-dang-xem-cua-nam-2017.2674750/" class="Tooltip" title="19:10 ngày 29/1/17">19:10 hôm qua</a>
+</span>
+<span class="forum">
+<span>trong</span>
+<a href="forums/dien-tu-tieu-dung.293/">Điện tử - Tiêu dùng</a>
+</span>
+</div><!-- .thread-info -->
+<div class="thread-image width-wide" data-src="https://tinhte.vn/store/2017/01/3961940_cv.jpg">
+<a href="threads/nhung-tua-phim-noi-bat-dang-xem-cua-nam-2017.2674750/">
+<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAADAQMAAACUBtwLAAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAAAtJREFUCJljYAABAAAGAAHmh/5/AAAAAElFTkSuQmCC" style="background: url(https://tinhte.vn/store/2017/01/3961940_cv.jpg); background-size: cover;">
+</a>
+</div>
+<div class="thread-title width-narrow">
+<a href="threads/nhung-tua-phim-noi-bat-dang-xem-cua-nam-2017.2674750/">Những tựa phim nổi bật, đáng xem của năm 2017</a>
+</div>
+<div class="post-body width-narrow">
+<article>
+<blockquote class="messageText ugc baseHtml">
+<a href="http://viettel11.vimobi.com:9081/threads/nhung-tua-phim-noi-bat-dang-xem-cua-nam-2017.2674750/" class="snippet block">Trong năm 2017, chúng ta sẽ tiếp tục được xem những bộ phim mới lần lượt ra rạp rải rác suốt cả năm. Để anh em tiện theo dõi những tựa phim nào đáng xem thì mình sẽ tổng hợp ở đây một số tựa phim nổi bật, mời các bạn theo dõi và lưu lại trong danh sách &quot;phim chờ xem&quot; cá nhân nhé. Đa số những tựa phim này sẽ được chiếu rạp ở VN, một số…</a>
+</blockquote>
+</article>
+</div>
+<div class="post-controls controls width-narrow">
+<a href="http://viettel11.vimobi.com:9081/threads/nhung-tua-phim-noi-bat-dang-xem-cua-nam-2017.2674750/" class="control views">
+<span>
+<i class="fa fa-eye" aria-hidden="true"></i>
+<span class="counter" style="">18,529</span>
+</span>
+</a>
+<a href="http://viettel11.vimobi.com:9081/threads/nhung-tua-phim-noi-bat-dang-xem-cua-nam-2017.2674750/#QuickReply" class="control replies">
+<span>
+<i class="fa fa-comment-o" aria-hidden="true"></i>
+<span class="counter" style="">40</span>
+</span>
+</a>
+<div class="controls sharing">
+<div class="bdSocialShare shareControl socialcounters" data-url="http://viettel11.vimobi.com:9081/threads/nhung-tua-phim-noi-bat-dang-xem-cua-nam-2017.2674750/" data-server="https://tinhte.vn">
+<div class="facebook" title="Chia sẻ lên Facebook">
+<a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fviettel11.vimobi.com%3A9081%2Fthreads%2Fnhung-tua-phim-noi-bat-dang-xem-cua-nam-2017.2674750%2F" target="_blank">
+<i class="fa fa-facebook" aria-hidden="true"></i>
+<span>Facebook</span>
+<span class="counter" style="display: none">0</span>
+</a>
+</div>
+</div>
+<a href="http://viettel11.vimobi.com:9081/posts/49228751/permalink" class="control permalink OverlayTrigger">
+<span>
+<i class="fa fa-share-alt" aria-hidden="true"></i>
+</span>
+</a>
+</div>
+</div>
+<div class="separator width-wide">&nbsp;</div>
+</div>
+<div id="post-49230734" class="promote section position-15 thread-2674838 forum-10 thread"data-author="ndminhduc">
+<div class="thread-info width-narrow">
+<span class="poster-avatar">
+<a href="members/ndminhduc.1657195/" class="avatar Av1657195m" data-avatarhtml="true"><img src="https://tinhte.vn/data/avatars/m/1657/1657195.jpg?1411038526" width="96" height="96" alt="ndminhduc" /></a>
+</span>
+<span class="poster">
+<a href="members/ndminhduc.1657195/" class="username" dir="auto">ndminhduc</a>
+</span>
+<span class="process-time">
+<a href="threads/cac-hang-cong-nghe-phan-ung-gi-truoc-lenh-cam-nhap-cu-cua-trump.2674838/">17:24 ngày 29/1/17</a>
+</span>
+<span class="forum">
+<span>trong</span>
+<a href="forums/thong-tin-cong-nghe.10/">Thông tin công nghệ</a>
+</span>
+</div><!-- .thread-info -->
+<div class="thread-image width-wide" data-src="https://tinhte.vn/store/2017/01/3962052_cv_emo.jpg">
+<a href="threads/cac-hang-cong-nghe-phan-ung-gi-truoc-lenh-cam-nhap-cu-cua-trump.2674838/">
+<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAADAQMAAACUBtwLAAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAAAtJREFUCJljYAABAAAGAAHmh/5/AAAAAElFTkSuQmCC" style="background: url(https://tinhte.vn/store/2017/01/3962052_cv_emo.jpg); background-size: cover;">
+</a>
+</div>
+<div class="thread-title width-narrow">
+<a href="threads/cac-hang-cong-nghe-phan-ung-gi-truoc-lenh-cam-nhap-cu-cua-trump.2674838/">Các hãng công nghệ phản ứng gì trước lệnh cấm nhập cư của Trump?</a>
+</div>
+<div class="post-body width-narrow">
+<article>
+<blockquote class="messageText ugc baseHtml">
+<a href="http://viettel11.vimobi.com:9081/threads/cac-hang-cong-nghe-phan-ung-gi-truoc-lenh-cam-nhap-cu-cua-trump.2674838/" class="snippet block">Lệnh cấm người tị nạn và nhập cư đến từ 7 quốc gia của tổng thống Mỹ Trump đã tạo nên làng sóng phản ứng mạnh mẽ từ hàng loạt các CEO của những công ty công nghệ lớn tại thung lũng Silicon. Tuy nhiên tùy vào từng vị CEO mà mức độ phản ứng khác nhau, có người thẳng thừng chống lại, có người biểu hiện ý ôn hòa còn có người chỉ đánh tiếng không…</a>
+</blockquote>
+</article>
+</div>
+<div class="post-controls controls width-narrow">
+<a href="http://viettel11.vimobi.com:9081/threads/cac-hang-cong-nghe-phan-ung-gi-truoc-lenh-cam-nhap-cu-cua-trump.2674838/" class="control views">
+<span>
+<i class="fa fa-eye" aria-hidden="true"></i>
+<span class="counter" style="">31,587</span>
+</span>
+</a>
+<a href="http://viettel11.vimobi.com:9081/threads/cac-hang-cong-nghe-phan-ung-gi-truoc-lenh-cam-nhap-cu-cua-trump.2674838/#QuickReply" class="control replies">
+<span>
+<i class="fa fa-comment-o" aria-hidden="true"></i>
+<span class="counter" style="">173</span>
+</span>
+</a>
+<div class="controls sharing">
+<div class="bdSocialShare shareControl socialcounters" data-url="http://viettel11.vimobi.com:9081/threads/cac-hang-cong-nghe-phan-ung-gi-truoc-lenh-cam-nhap-cu-cua-trump.2674838/" data-server="https://tinhte.vn">
+<div class="facebook" title="Chia sẻ lên Facebook">
+<a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fviettel11.vimobi.com%3A9081%2Fthreads%2Fcac-hang-cong-nghe-phan-ung-gi-truoc-lenh-cam-nhap-cu-cua-trump.2674838%2F" target="_blank">
+<i class="fa fa-facebook" aria-hidden="true"></i>
+<span>Facebook</span>
+<span class="counter" style="display: none">0</span>
+</a>
+</div>
+</div>
+<a href="http://viettel11.vimobi.com:9081/posts/49230734/permalink" class="control permalink OverlayTrigger">
+<span>
+<i class="fa fa-share-alt" aria-hidden="true"></i>
+</span>
+</a>
+</div>
+</div>
+<div class="separator width-wide">&nbsp;</div>
+</div>
+<div class="widget-container act-as-sidebar sidebar section sectionMain widget-columns columns-2" id="widget-columns-218">
+<div class="columns-table">
+<div class="columns-row">
+<div class="widget-column column-1">
+<div class="adWidget adWidget-gpt ad-1 slot-24" data-ad-id="1">
+<ins class="GptLoader" style="display:block;" data-ad-unit-path="/3823916/Tinhte_Desktop_Forum_Right_1" data-ad-size-width="300" data-ad-size-height="250"></ins>
+</div>
+</div>
+<div class="widget-column column-2">
+<div class="adWidget adWidget-gpt ad-2 slot-23" data-ad-id="2">
+<ins class="GptLoader" style="display:block;" data-ad-unit-path="/3823916/Tinhte_Desktop_Forum_Right_2" data-ad-size-width="300" data-ad-size-height="250"></ins>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="post-49228816" class="promote section position-16 thread-2674752 forum-76 thread"data-author="ndminhduc">
+<div class="thread-info width-narrow">
+<span class="poster-avatar">
+<a href="members/ndminhduc.1657195/" class="avatar Av1657195m" data-avatarhtml="true"><img src="https://tinhte.vn/data/avatars/m/1657/1657195.jpg?1411038526" width="96" height="96" alt="ndminhduc" /></a>
+</span>
+<span class="poster">
+<a href="members/ndminhduc.1657195/" class="username" dir="auto">ndminhduc</a>
+</span>
+<span class="process-time">
+<a href="threads/cac-nha-khoa-hoc-dang-tao-ra-chuon-chuon-bien-doi-gen-lai-robot-dieu-khien-duoc.2674752/">14:12 ngày 29/1/17</a>
+</span>
+<span class="forum">
+<span>trong</span>
+<a href="forums/khoa-hoc.76/">Khoa học</a>
+</span>
+</div><!-- .thread-info -->
+<div class="thread-image width-wide" data-src="https://tinhte.vn/store/2017/01/3961860_cv.jpg">
+<a href="threads/cac-nha-khoa-hoc-dang-tao-ra-chuon-chuon-bien-doi-gen-lai-robot-dieu-khien-duoc.2674752/">
+<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAADAQMAAACUBtwLAAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAAAtJREFUCJljYAABAAAGAAHmh/5/AAAAAElFTkSuQmCC" style="background: url(https://tinhte.vn/store/2017/01/3961860_cv.jpg); background-size: cover;">
+</a>
+</div>
+<div class="thread-title width-narrow">
+<a href="threads/cac-nha-khoa-hoc-dang-tao-ra-chuon-chuon-bien-doi-gen-lai-robot-dieu-khien-duoc.2674752/">Các nhà khoa học đang tạo ra chuồn chuồn biến đổi gen lai robot điều khiển được</a>
+</div>
+<div class="post-body width-narrow">
+<article>
+<blockquote class="messageText ugc baseHtml">
+<a href="http://viettel11.vimobi.com:9081/threads/cac-nha-khoa-hoc-dang-tao-ra-chuon-chuon-bien-doi-gen-lai-robot-dieu-khien-duoc.2674752/" class="snippet block">Hãng giải pháp công nghệ sinh học Draper đang phát triển kỹ thuật biến một con chuồn chuồn thành chiếc &quot;máy bay drone sống”, có thể điều khiển được. Với tên gọi dự án DragonflEye, cách làm ở đây là cho con chuồn chuồn đeo một chiếc “balo” ở sau lưng, tích hợp trên đó tấm năng lượng Mặt Trời để thu thập năng lượng. Đồng thời trong đó còn…</a>
+</blockquote>
+</article>
+</div>
+<div class="post-controls controls width-narrow">
+<a href="http://viettel11.vimobi.com:9081/threads/cac-nha-khoa-hoc-dang-tao-ra-chuon-chuon-bien-doi-gen-lai-robot-dieu-khien-duoc.2674752/" class="control views">
+<span>
+<i class="fa fa-eye" aria-hidden="true"></i>
+<span class="counter" style="">11,784</span>
+</span>
+</a>
+<a href="http://viettel11.vimobi.com:9081/threads/cac-nha-khoa-hoc-dang-tao-ra-chuon-chuon-bien-doi-gen-lai-robot-dieu-khien-duoc.2674752/#QuickReply" class="control replies">
+<span>
+<i class="fa fa-comment-o" aria-hidden="true"></i>
+<span class="counter" style="">29</span>
+</span>
+</a>
+<div class="controls sharing">
+<div class="bdSocialShare shareControl socialcounters" data-url="http://viettel11.vimobi.com:9081/threads/cac-nha-khoa-hoc-dang-tao-ra-chuon-chuon-bien-doi-gen-lai-robot-dieu-khien-duoc.2674752/" data-server="https://tinhte.vn">
+<div class="facebook" title="Chia sẻ lên Facebook">
+<a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fviettel11.vimobi.com%3A9081%2Fthreads%2Fcac-nha-khoa-hoc-dang-tao-ra-chuon-chuon-bien-doi-gen-lai-robot-dieu-khien-duoc.2674752%2F" target="_blank">
+<i class="fa fa-facebook" aria-hidden="true"></i>
+<span>Facebook</span>
+<span class="counter" style="display: none">0</span>
+</a>
+</div>
+</div>
+<a href="http://viettel11.vimobi.com:9081/posts/49228816/permalink" class="control permalink OverlayTrigger">
+<span>
+<i class="fa fa-share-alt" aria-hidden="true"></i>
+</span>
+</a>
+</div>
+</div>
+<div class="separator width-wide">&nbsp;</div>
+</div>
+<div id="post-49230163" class="promote section position-17 thread-2674813 forum-669 thread"data-author="cuhiep">
+<div class="thread-info width-narrow">
+<span class="poster-avatar">
+<a href="members/cuhiep.3/" class="avatar Av3m" data-avatarhtml="true"><img src="https://tinhte.vn/data/avatars/m/0/3.jpg?1394077624" width="96" height="96" alt="cuhiep" /></a>
+</span>
+<span class="poster">
+<a href="members/cuhiep.3/" class="username" dir="auto">cuhiep</a>
+</span>
+<span class="process-time">
+<a href="threads/ttbc16-top-10-may-anh-duoc-binh-chon-nhieu-nhat.2674813/">11:53 ngày 29/1/17</a>
+</span>
+<span class="forum">
+<span>trong</span>
+<a href="forums/tinh-te-binh-chon-2016.669/">Tinh tế bình chọn 2016</a>
+</span>
+</div><!-- .thread-info -->
+<div class="thread-title width-narrow">
+<a href="threads/ttbc16-top-10-may-anh-duoc-binh-chon-nhieu-nhat.2674813/">TTBC16: Tốp 10 máy ảnh được bình chọn nhiều nhất</a>
+</div>
+<div class="post-body width-narrow">
+<article>
+<blockquote class="messageText ugc baseHtml">
+<a href="http://viettel11.vimobi.com:9081/threads/ttbc16-top-10-may-anh-duoc-binh-chon-nhieu-nhat.2674813/" class="snippet block"><script id="infogram_0_2f87d3e6-cdc1-49a5-90a8-f32abf132511" src="//e.infogr.am/js/embed.js" type="text/javascript"></script></a>
+</blockquote>
+</article>
+</div>
+<div class="post-controls controls width-narrow">
+<a href="http://viettel11.vimobi.com:9081/threads/ttbc16-top-10-may-anh-duoc-binh-chon-nhieu-nhat.2674813/" class="control views">
+<span>
+<i class="fa fa-eye" aria-hidden="true"></i>
+<span class="counter" style="">8,681</span>
+</span>
+</a>
+<a href="http://viettel11.vimobi.com:9081/threads/ttbc16-top-10-may-anh-duoc-binh-chon-nhieu-nhat.2674813/#QuickReply" class="control replies">
+<span>
+<i class="fa fa-comment-o" aria-hidden="true"></i>
+<span class="counter" style="">50</span>
+</span>
+</a>
+<div class="controls sharing">
+<div class="bdSocialShare shareControl socialcounters" data-url="http://viettel11.vimobi.com:9081/threads/ttbc16-top-10-may-anh-duoc-binh-chon-nhieu-nhat.2674813/" data-server="https://tinhte.vn">
+<div class="facebook" title="Chia sẻ lên Facebook">
+<a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fviettel11.vimobi.com%3A9081%2Fthreads%2Fttbc16-top-10-may-anh-duoc-binh-chon-nhieu-nhat.2674813%2F" target="_blank">
+<i class="fa fa-facebook" aria-hidden="true"></i>
+<span>Facebook</span>
+<span class="counter" style="display: none">0</span>
+</a>
+</div>
+</div>
+<a href="http://viettel11.vimobi.com:9081/posts/49230163/permalink" class="control permalink OverlayTrigger">
+<span>
+<i class="fa fa-share-alt" aria-hidden="true"></i>
+</span>
+</a>
+</div>
+</div>
+<div class="separator width-wide">&nbsp;</div>
+</div>
+<div id="post-49229711" class="promote section position-18 thread-2674796 forum-118 thread"data-author="Duy Luân">
+<div class="thread-info width-narrow">
+<span class="poster-avatar">
+<a href="members/duy-luan.39792/" class="avatar Av39792m" data-avatarhtml="true"><img src="https://tinhte.vn/data/avatars/m/39/39792.jpg?1443578511" width="96" height="96" alt="Duy Luân" /></a>
+</span>
+<span class="poster">
+<a href="members/duy-luan.39792/" class="username" dir="auto">Duy Luân</a>
+</span>
+<span class="process-time">
+<a href="threads/video-y-tuong-anh-em-nghi-sao-neu-iphone-8-giau-camera-vao-trong-logo-qua-tao.2674796/">10:50 ngày 29/1/17</a>
+</span>
+<span class="forum">
+<span>trong</span>
+<a href="forums/ios-tin-tuc-danh-gia.118/" title="[iOS] Tin tức - Đánh giá" class="Tooltip">iOS</a>
+</span>
+</div><!-- .thread-info -->
+<div class="thread-image width-wide" data-src="https://tinhte.vn/store/2017/01/3961975_cv_iPhone_8_y_tuong_camera_qua_tao.jpg">
+<a href="threads/video-y-tuong-anh-em-nghi-sao-neu-iphone-8-giau-camera-vao-trong-logo-qua-tao.2674796/">
+<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABGEAAAGlAQMAAABgH3l0AAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAAFFJREFUeJztwQENAAAAwqD3T20ON6AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACATwPphgABG//VLQAAAABJRU5ErkJggg==" style="background: url(https://tinhte.vn/store/2017/01/3961975_cv_iPhone_8_y_tuong_camera_qua_tao.jpg); background-size: cover;">
+</a>
+</div>
+<div class="thread-title width-narrow">
+<a href="threads/video-y-tuong-anh-em-nghi-sao-neu-iphone-8-giau-camera-vao-trong-logo-qua-tao.2674796/">[Video ý tưởng]e</a>
+</div>
+<div class="post-body width-narrow">
+<article>
+<blockquote class="messageText ugc baseHtml">
+<a href="http://viettel11.vimobi.com:9081/threads/video-y-tuong-anh-em-nghi-sao-neu-iphone-8-giau-camera-vao-trong-logo-qua-tao.2674796/" class="snippet block">à có thể…</a>
+</blockquote>
+</article>
+</div>
+<div class="post-controls controls width-narrow">
+<a href="http://viettel11.vimobi.com:9081/threads/video-y-tuong-anh-em-nghi-sao-neu-iphone-8-giau-camera-vao-trong-logo-qua-tao.2674796/" class="control views">
+<span>
+<i class="fa fa-eye" aria-hidden="true"></i>
+<span class="counter" style="">22,719</span>
+</span>
+</a>
+<a href="http://viettel11.vimobi.com:9081/threads/video-y-tuong-anh-em-nghi-sao-neu-iphone-8-giau-camera-vao-trong-logo-qua-tao.2674796/#QuickReply" class="control replies">
+<span>
+<i class="fa fa-comment-o" aria-hidden="true"></i>
+<span class="counter" style="">89</span>
+</span>
+</a>
+<div class="controls sharing">
+<div class="bdSocialShare shareControl socialcounters" data-url="http://viettel11.vimobi.com:9081/threads/video-y-tuong-anh-em-nghi-sao-neu-iphone-8-giau-camera-vao-trong-logo-qua-tao.2674796/" data-server="https://tinhte.vn">
+<div class="facebook" title="Chia sẻ lên Facebook">
+<a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fviettel11.vimobi.com%3A9081%2Fthreads%2Fvideo-y-tuong-anh-em-nghi-sao-neu-iphone-8-giau-camera-vao-trong-logo-qua-tao.2674796%2F" target="_blank">
+<i class="fa fa-facebook" aria-hidden="true"></i>
+<span>Facebook</span>
+<span class="counter" style="display: none">0</span>
+</a>
+</div>
+</div>
+<a href="http://viettel11.vimobi.com:9081/posts/49229711/permalink" class="control permalink OverlayTrigger">
+<span>
+<i class="fa fa-share-alt" aria-hidden="true"></i>
+</span>
+</a>
+</div>
+</div>
+<div class="separator width-wide">&nbsp;</div>
+</div>
+<div id="post-49229714" class="promote section position-19 thread-2674798 forum-29 thread"data-author="Duy Luân">
+<div class="thread-info width-narrow">
+<span class="poster-avatar">
+<a href="members/duy-luan.39792/" class="avatar Av39792m" data-avatarhtml="true"><img src="https://tinhte.vn/data/avatars/m/39/39792.jpg?1443578511" width="96" height="96" alt="Duy Luân" /></a>
+</span>
+<span class="poster">
+<a href="members/duy-luan.39792/" class="username" dir="auto">Duy Luân</a>
+</span>
+<span class="process-time">
+<a href="threads/seagate-se-lam-o-hdd-dung-luong-16tb-trong-nam-sau-bom-khi-heli-de-giam-nhiet-luong.2674798/">09:36 ngày 29/1/17</a>
+</span>
+<span class="forum">
+<span>trong</span>
+<a href="forums/thiet-bi-ngoai-vi.29/">Thiết bị ngoại vi</a>
+</span>
+</div><!-- .thread-info -->
+<div class="thread-image width-wide" data-src="https://tinhte.vn/store/2017/01/3961979_cv_HDD_16TB_seagate.jpg">
+<a href="threads/seagate-se-lam-o-hdd-dung-luong-16tb-trong-nam-sau-bom-khi-heli-de-giam-nhiet-luong.2674798/">
+<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAiIAAADNAQMAAAC/94kXAAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAACVJREFUaIHtwTEBAAAAwqD1T20ND6AAAAAAAAAAAAAAAAAAgG8DOA4AAdug7JQAAAAASUVORK5CYII=" style="background: url(https://tinhte.vn/store/2017/01/3961979_cv_HDD_16TB_seagate.jpg); background-size: cover;">
+</a>
+</div>
+<div class="thread-title width-narrow">
+<a href="threads/seagate-se-lam-o-hdd-dung-luong-16tb-trong-nam-sau-bom-khi-heli-de-giam-nhiet-luong.2674798/">Seagate sẽ làm ổ HDD dung lượng 16TB trong năm sau, bơm khi heli để giảm nhiệt lượng</a>
+</div>
+<div class="post-body width-narrow">
+<article>
+<blockquote class="messageText ugc baseHtml">
+<a href="http://viettel11.vimobi.com:9081/threads/seagate-se-lam-o-hdd-dung-luong-16tb-trong-nam-sau-bom-khi-heli-de-giam-nhiet-luong.2674798/" class="snippet block">Seagate cho biết họ sẽ làm HDD dung lượng lên đến 16TB trong năm sau, nếu sản phẩm này xuất hiện trên thị trường thì nó sẽ là ổ đĩa từ lớn nhất từng được sản xuất, không tính các ổ ghép lại từ nhiều ổ con (SSD thì có dung lượng cao hơn, ví dụ như 60TB cũng của Seagate). Hãng nói thêm rằng sản phẩm trên sẽ dùng chuẩn 3,5&quot; dành cho desktop…</a>
+</blockquote>
+</article>
+</div>
+<div class="post-controls controls width-narrow">
+<a href="http://viettel11.vimobi.com:9081/threads/seagate-se-lam-o-hdd-dung-luong-16tb-trong-nam-sau-bom-khi-heli-de-giam-nhiet-luong.2674798/" class="control views">
+<span>
+<i class="fa fa-eye" aria-hidden="true"></i>
+<span class="counter" style="">10,612</span>
+</span>
+</a>
+<a href="http://viettel11.vimobi.com:9081/threads/seagate-se-lam-o-hdd-dung-luong-16tb-trong-nam-sau-bom-khi-heli-de-giam-nhiet-luong.2674798/#QuickReply" class="control replies">
+<span>
+<i class="fa fa-comment-o" aria-hidden="true"></i>
+<span class="counter" style="">33</span>
+</span>
+</a>
+<div class="controls sharing">
+<div class="bdSocialShare shareControl socialcounters" data-url="http://viettel11.vimobi.com:9081/threads/seagate-se-lam-o-hdd-dung-luong-16tb-trong-nam-sau-bom-khi-heli-de-giam-nhiet-luong.2674798/" data-server="https://tinhte.vn">
+<div class="facebook" title="Chia sẻ lên Facebook">
+<a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fviettel11.vimobi.com%3A9081%2Fthreads%2Fseagate-se-lam-o-hdd-dung-luong-16tb-trong-nam-sau-bom-khi-heli-de-giam-nhiet-luong.2674798%2F" target="_blank">
+<i class="fa fa-facebook" aria-hidden="true"></i>
+<span>Facebook</span>
+<span class="counter" style="display: none">0</span>
+</a>
+</div>
+</div>
+<a href="http://viettel11.vimobi.com:9081/posts/49229714/permalink" class="control permalink OverlayTrigger">
+<span>
+<i class="fa fa-share-alt" aria-hidden="true"></i>
+</span>
+</a>
+</div>
+</div>
+<div class="separator width-wide">&nbsp;</div>
+</div>
+<div id="post-49229712" class="promote section position-20 thread-2674797 forum-293 thread"data-author="Duy Luân">
+<div class="thread-info width-narrow">
+<span class="poster-avatar">
+<a href="members/duy-luan.39792/" class="avatar Av39792m" data-avatarhtml="true"><img src="https://tinhte.vn/data/avatars/m/39/39792.jpg?1443578511" width="96" height="96" alt="Duy Luân" /></a>
+</span>
+<span class="poster">
+<a href="members/duy-luan.39792/" class="username" dir="auto">Duy Luân</a>
+</span>
+<span class="process-time">
+<a href="threads/tv-oled-mong-nhu-giay-cua-lg-co-gia-chi-7-996-ban-cao-hon-cung-chi-19-996.2674797/">08:29 ngày 29/1/17</a>
+</span>
+<span class="forum">
+<span>trong</span>
+<a href="forums/dien-tu-tieu-dung.293/">Điện tử - Tiêu dùng</a>
+</span>
+</div><!-- .thread-info -->
+<div class="thread-image width-wide" data-src="https://tinhte.vn/store/2017/01/3961978_cv_LG_Signatore_OLED_W_sieu_mong_gia.jpg">
+<a href="threads/tv-oled-mong-nhu-giay-cua-lg-co-gia-chi-7-996-ban-cao-hon-cung-chi-19-996.2674797/">
+<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABC0AAAGRAQMAAAB7ctvhAAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAAEtJREFUeJztwQENAAAAwqD3T20PBxQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAhwbTdwABIz1sowAAAABJRU5ErkJggg==" style="background: url(https://tinhte.vn/store/2017/01/3961978_cv_LG_Signatore_OLED_W_sieu_mong_gia.jpg); background-size: cover;">
+</a>
+</div>
+<div class="thread-title width-narrow">
+<a href="threads/tv-oled-mong-nhu-giay-cua-lg-co-gia-chi-7-996-ban-cao-hon-cung-chi-19-996.2674797/">TV OLED mỏng như giấy của LG có giá &quot;chỉ&quot; 7.996$, bản cao hơn cũng chỉ 19.996$</a>
+</div>
+<div class="post-body width-narrow">
+<article>
+<blockquote class="messageText ugc baseHtml">
+<a href="http://viettel11.vimobi.com:9081/threads/tv-oled-mong-nhu-giay-cua-lg-co-gia-chi-7-996-ban-cao-hon-cung-chi-19-996.2674797/" class="snippet block">Chiếc TV siêu mỏng Signature 4K OLED W của LEG sẽ có giá khởi điểm khá rẻ, chỉ 7996$ cho phiên bản 65&quot; và 19.996$ cho bản 77&quot;. Đây là số tiền nho nhỏ bạn cần chi ra để sở hữu một chiếc TV mỏng chỉ 2,57 mm. Sản phẩm mỏng đến độ các linh kiện chính phải di chuyển xuống nằm trong soundbar Dolby Atmos bán kèm. Bạn có thể kỳ vọng tất cả…</a>
+</blockquote>
+</article>
+</div>
+<div class="post-controls controls width-narrow">
+<a href="http://viettel11.vimobi.com:9081/threads/tv-oled-mong-nhu-giay-cua-lg-co-gia-chi-7-996-ban-cao-hon-cung-chi-19-996.2674797/" class="control views">
+<span>
+<i class="fa fa-eye" aria-hidden="true"></i>
+<span class="counter" style="">23,767</span>
+</span>
+</a>
+<a href="http://viettel11.vimobi.com:9081/threads/tv-oled-mong-nhu-giay-cua-lg-co-gia-chi-7-996-ban-cao-hon-cung-chi-19-996.2674797/#QuickReply" class="control replies">
+<span>
+<i class="fa fa-comment-o" aria-hidden="true"></i>
+<span class="counter" style="">89</span>
+</span>
+</a>
+<div class="controls sharing">
+<div class="bdSocialShare shareControl socialcounters" data-url="http://viettel11.vimobi.com:9081/threads/tv-oled-mong-nhu-giay-cua-lg-co-gia-chi-7-996-ban-cao-hon-cung-chi-19-996.2674797/" data-server="https://tinhte.vn">
+<div class="facebook" title="Chia sẻ lên Facebook">
+<a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fviettel11.vimobi.com%3A9081%2Fthreads%2Ftv-oled-mong-nhu-giay-cua-lg-co-gia-chi-7-996-ban-cao-hon-cung-chi-19-996.2674797%2F" target="_blank">
+<i class="fa fa-facebook" aria-hidden="true"></i>
+<span>Facebook</span>
+<span class="counter" style="display: none">0</span>
+</a>
+</div>
+</div>
+<a href="http://viettel11.vimobi.com:9081/posts/49229712/permalink" class="control permalink OverlayTrigger">
+<span>
+<i class="fa fa-share-alt" aria-hidden="true"></i>
+</span>
+</a>
+</div>
+</div>
+<div class="separator width-wide">&nbsp;</div>
+</div>
+</div>
+<div class="PageNav next-link">
+<a href="page-2/" class="block">Xem tiếp</a>
+</div>
+</div>
+</div>
+<!-- login form, to be moved to the upper drop-down -->
+<form action="login/login" method="post" class="xenForm eAuth" id="login" style="display:none">
+<ul id="eAuthUnit">
+<li><a href="register/facebook?reg=1" class="fbLogin" tabindex="110"><span>Đăng nhập bằng Facebook</span></a></li>
+<li><span class="googleLogin GoogleLogin JsOnly" tabindex="110" data-client-id="572333712218-17emelrtbjqlumrd326fbnrjb2ma4kh5.apps.googleusercontent.com" data-redirect-url="register/google?code=__CODE__&amp;csrf=bXOmJGvZM_Za-vGW"><span>Đăng nhập bằng Google</span></span></li>
+</ul>
+<div class="ctrlWrapper">
+<dl class="ctrlUnit">
+  <dt><label for="LoginControl">Tên tài khoản/ Email:</label></dt>
+<dd><input type="text" name="login" id="LoginControl" class="textCtrl" tabindex="101" /></dd>
+</dl>
+<dl class="ctrlUnit">
+<dt>
+<label for="ctrl_password">Bạn đã có tài khoản?</label>
+</dt>
+<dd>
+<ul>
+<li><label for="ctrl_not_registered"><input type="radio" name="register" value="1" id="ctrl_not_registered" tabindex="105" />
+Chưa, tạo tài khoản mới.</label></li>
+<li><label for="ctrl_registered"><input type="radio" name="register" value="0" id="ctrl_registered" tabindex="105" checked="checked" class="Disabler" />
+Có, mật khẩu của tôi là:</label></li>
+<li id="ctrl_registered_Disabler">
+<input type="password" name="password" class="textCtrl" id="ctrl_password" tabindex="102" />
+<div class="lostPassword"><a href="lost-password/" class="OverlayTrigger OverlayCloser" tabindex="106">Quên mật khẩu?</a></div>
+</li>
+</ul>
+</dd>
+</dl>
+<dl class="ctrlUnit submitUnit">
+<dt></dt>
+<dd>
+<input type="submit" class="button primary" value="Đăng nhập" tabindex="104" data-loginPhrase="Đăng nhập" data-signupPhrase="Đăng ký" />
+<label for="ctrl_remember" class="rememberPassword"><input type="checkbox" name="remember" value="1" id="ctrl_remember" tabindex="103" /> Nhớ đăng nhập</label>
+</dd>
+</dl>
+</div>
+<input type="hidden" name="cookie_check" value="1" />
+<input type="hidden" name="redirect" value="/" />
+<input type="hidden" name="_xfToken" value="" />
+</form>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<footer>
+<div id="uix_stickyFooterSpacer"></div>
+<div class="footer">
+<div class="pageContent">
+<div class="pageWidth">
+<ul class="footerLinks">
+<li><a href="https://tinhte.vn/" class="homeLink">Trang chủ</a></li>
+<li><a href="hotro/">Giúp đỡ</a></li>
+<li><a href="http://www.tinhte.vn/threads/noi-quy-dien-dan.20/">Điều khoản & Quy định</a></li>
+<li class="topLink"><a href="/#XenForo"><i class="uix_icon uix_icon-jumpToTop"></i> <span class="uix_hide">Lên đầu</span></a></li>
+</ul>
+<span class="helper"></span>
+</div>
+</div>
+</div>
+<div class="bigFooter">
+<div class="pageContent">
+<div class="pageWidth">
+<ul class="bigFooterRow bigFooterRow--mainRow bigFooterRow--has4Columns">
+<li class="bigFooterCol bigFooterCol--col1">
+<div class="section">
+<h3 class="bigFooterHeader">
+Tinhte.vn
+</h3>
+<ul class="footerMenu">
+<li><a href="https://tinhte.vn/">Trang nhất</a></li>
+</ul>
+</div>
+</li>
+<div class="footerLegal">
+<div class="pageContent">
+<div class="pageWidth">
+<ul class="uix_socialMediaLinks">
+<li class="uix_socialLink uix_socialLink--facebook"><a href="https://www.facebook.com/" target="_blank"><i class="uix_icon uix_icon-facebook"></i></a></li>
+<li class="uix_socialLink uix_socialLink--googleplus"><a href="https://plus.google.com/+tinhte" target="_blank"><i class="uix_icon uix_icon-googlePlus"></i></a></li>
+<!--ADD LIST ITEMS HERE -->
+</ul>
+<div id="copyright">
+.
+</div>
+<span class="helper"></span>
+</div>
+</div>
+</div>
+</div>
+<div id="uix_jumpToFixed">
+<a href="#XenForo" title="Lên đầu" data-position="top"><i class="uix_icon uix_icon-jumpToTop"></i></a>
+</div>
+<div class="bdRealtime_Loader" data-config="{&quot;pusherAppKey&quot;:&quot;ws&quot;,&quot;pusherOptions&quot;:{&quot;encrypted&quot;:true,&quot;apiHost&quot;:&quot;10.0.0.3&quot;,&quot;apiPort&quot;:8183,&quot;wsHost&quot;:&quot;nhattao.com&quot;,&quot;wsPort&quot;:80,&quot;wssPort&quot;:443},&quot;pollingEnabled&quot;:&quot;1&quot;,&quot;pollingOptions&quot;:{&quot;timestamp&quot;:1485772453,&quot;url&quot;:&quot;https:\/\/tinhte.vn\/data\/bdRealtime\/polling&quot;},&quot;bingUrl&quot;:&quot;&quot;,&quot;debugMode&quot;:false,&quot;channelPrefix&quot;:&quot;httpstinhtevnf2107ae2ffda03ad4574a858933db9fa&quot;,&quot;eventNamePrefix&quot;:&quot;ea70f884356c0ea0030a0c7cc308a419&quot;}"></div>
+</footer>
+<!-- Google Analytics -->
+<script async src='//www.google-analytics.com/analytics.js'></script>
+<!-- End Google Analytics -->
+<div id="PreviewTooltip">
+<span class="arrow"><span></span></span>
+<div class="section">
+<div class="primaryContent previewContent">
+<span class="PreviewContents">Đang tải</span>
+</div>
+</div>
+</div>
+<script type="application/ld+json">
+{
+"@context": "http://schema.org",
+"@type": "WebSite",
+"url": "https://tinhte.vn/",
+"potentialAction": {
+"@type": "SearchAction",
+"target": "https://tinhte.vn/search/search?keywords={search_keywords}",
+"query-input": "required name=search_keywords"
+}
+}
+</script>
+</div> <div class="uix_wrapperFix" style="height: 1px; margin-top: -1px;"></div>
+</div> </div> <!-- UI.X Version: 1.5.9.0 //-->
+<script>
+var _b = document.getElementsByTagName('base')[0], _bH = "https://tinhte.vn/";
+if (_b && _b.href != _bH) _b.href = _bH;
+</script><script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script><script>if (!window.jQuery) { document.write('<scr'+'ipt type="text/javascript" src="js/jquery/jquery-1.11.0.min.js"><\/scr'+'ipt>'); }</script><script src="js/xenforo/xenforo.js?_v=ed69f327"></script><script src="js/bdSocialShare/socialcounters.min.js?_v=ed69f327"></script><script src="js/bdLinkExpander/script.min.js?_v=ed69f327"></script><script src="js/xenforo/lightbox.js?_v=ed69f327"></script><script src="js/Tinhte/Galleria/imagesloaded.pkgd.min.js?_v=ed69f327"></script><script src="js/Tinhte/Galleria/masonry.pkgd.min.js?_v=ed69f327"></script><script src="js/Tinhte/Galleria/script.min.js?_v=ed69f327"></script><script>
+uix = {
+elm: {},
+fn:{}
